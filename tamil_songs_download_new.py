@@ -11,9 +11,14 @@ import os
 import youtube_dl
 
 debug = False
-ddebug = False
+skip_download = False
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
-
+import logging
+logging.basicConfig(filename='missing_download.log',level=logging.DEBUG)
+logging.error('Sample Error Log')
+logging.warning('Sample Warning Log')
+logging.debug('Sample Debug Log')
+logging.info('Sample Info Log')
 
 from googlesearch import search
 import requests
@@ -25,19 +30,37 @@ from mp3_tagger import MP3File, VERSION_1, VERSION_2, VERSION_BOTH
 eyed3.log.setLevel("ERROR")
 
 hexaPattern = r'%[0-9a-fA-F]{2}'
-def fixName(url):
+bitratePattern = r'[0-9]{3}kbps'
+yearPattern = r'[12]{1}[0-9]{3}'
+def fixName(tag):
     # Preliminary change, must modify for each website
-    rawfile = re.sub(r'Masstamilan.in','', url, flags=re.IGNORECASE)
+    def fixWebsiteName(file):
+        file = re.sub(r'Masstamilan\.in','', file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'Masstamilan\.com','', file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'-Masstamilan\.in', '',file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'- Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'\[Masstamilan\.In\]', '',file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'\[Starmusiq\.La\]', '',file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'Masstamilan In', '', file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'www\.', '', file, flags=re.IGNORECASE).lstrip()
+        return file
 
     # Common stuff
     def fixPunctuation(file):
         file = re.sub(hexaPattern, '', file)
-        file = re.sub('-','', file)
+        file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
+        file = re.sub(yearPattern, '', file)
+        file = re.sub('[','', file)
+        file = re.sub(']','', file)
         file = re.sub('_','', file)
         file = re.sub(r'\.+', '.', file)
+        file = re.sub(r'-\.', '.', file)
+        file = re.sub(r'-', '', file)
+        # file = re.sub(r'-+$', '', file)
         return file
     
-    return fixPunctuation(rawfile)
+    return fixPunctuation(fixWebsiteName(tag))
 
 def fixArtistNames(artist):
     artist = re.sub(r'\.', ' ', artist)
@@ -53,7 +76,7 @@ def fixArtistNames(artist):
     artist = re.sub(r's.p.b.', 'S P B ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'gv ', 'G V ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'g.v.', 'G V ',artist, flags=re.IGNORECASE)
-
+    artist = re.sub(r'S P B Lasubrahmanyam', 'S P B;',artist, flags=re.IGNORECASE)
     artist = re.sub(r'-', ';', artist)
     artist = re.sub(r',', ';',artist)
     artist = re.sub(r',', ';',artist)
@@ -62,55 +85,30 @@ def fixArtistNames(artist):
     artist = artist.title().lstrip().rstrip()
     return artist
 
+
 def set_id3(filename):
     """Module to read MP3 Meta Tags.
 
     Accepts Path like object only.
     """
     audio = eyed3.load(filename)
+    if not audio:
+        logging.error('failed to add tag for %s, invalid load', filename)
+        return
     # =========================================================================
     # Set Variables
     # =========================================================================
     if 1:
         audio.tag.read_only = False
-        # Updating Title
+        # Cleanup Tags
         if audio.tag.title:
-            title_ = audio.tag.title
-            title_ = re.sub(r'-Masstamilan.in', '',title_, flags=re.IGNORECASE).lstrip()
-            title_ = re.sub(r'- Masstamilan.In', '',title_, flags=re.IGNORECASE).lstrip()
-            title_ = re.sub(r'\[Masstamilan.in\]', '',title_, flags=re.IGNORECASE).lstrip()
-            title_ = re.sub(r'Masstamilan.In', '',title_, flags=re.IGNORECASE).lstrip()
-            title_ = re.sub(r'Masstamilan In', '', title_, flags=re.IGNORECASE).lstrip()
-            title_ = re.sub(r'www.', '', title_, flags=re.IGNORECASE).lstrip()
-            audio.tag.title = title_
-
+            fixName(audio.tag.title)
         if audio.tag.album:
-            album_ = audio.tag.album
-            album_ = re.sub(r'-Masstamilan.In', '', album_, flags=re.IGNORECASE).lstrip()
-            album_ = re.sub(r'- Masstamilan.In', '', album_, flags=re.IGNORECASE).lstrip()
-            album_ = re.sub(r'\[Masstamilan.in\]', '', album_, flags=re.IGNORECASE).lstrip()
-            album_ = re.sub(r'Masstamilan.In', '', album_, flags=re.IGNORECASE).lstrip()
-            album_ = re.sub(r'Masstamilan In', '', album_, flags=re.IGNORECASE).lstrip()
-            album_ = re.sub(r'www.', '', album_, flags=re.IGNORECASE).lstrip()
-            audio.tag.album = album_
+            fixName(audio.tag.album)
         if audio.tag.album_artist:
-            album_artist_ = audio.tag.album_artist
-            album_artist_ = re.sub(r'-Masstamilan.In', '',album_artist_, flags=re.IGNORECASE).lstrip()
-            album_artist_ = re.sub(r'- Masstamilan.In', '',album_artist_, flags=re.IGNORECASE).lstrip()
-            album_artist_ = re.sub(r'\[Masstamilan.in\]', '', album_artist_, flags=re.IGNORECASE).lstrip()
-            album_artist_ = re.sub(r'Masstamilan.In', '',album_artist_, flags=re.IGNORECASE).lstrip()
-            album_artist_ = re.sub(r'Masstamilan In', '',album_artist_, flags=re.IGNORECASE).lstrip()
-            album_artist_ = re.sub(r'www.', '',album_artist_, flags=re.IGNORECASE).lstrip()
-            audio.tag.album_artist = album_artist_
+            fixName(audio.tag.album_artist)
         if audio.tag.artist:
-            artist_ = audio.tag.artist
-            artist_ = re.sub(r'-Masstamilan.In', '',artist_, flags=re.IGNORECASE).lstrip()
-            artist_ = re.sub(r'- Masstamilan.In', '',artist_, flags=re.IGNORECASE).lstrip()
-            artist_ = re.sub(r'\[Masstamilan.in\]', '', artist_, flags=re.IGNORECASE).lstrip()
-            artist_ = re.sub(r'Masstamilan.In', '',artist_, flags=re.IGNORECASE).lstrip()
-            artist_ = re.sub(r'Masstamilan In', '',artist_, flags=re.IGNORECASE).lstrip()
-            artist_ = re.sub(r'www.', '',artist_, flags=re.IGNORECASE).lstrip()
-            audio.tag.artist = artist_
+            fixName(audio.tag.artist)
 
         # Updating Album-Artist
         album_artist = audio.tag.album_artist if audio.tag.album_artist else ""
@@ -144,20 +142,24 @@ def set_id3(filename):
         #     audio.tag.artist = title_split[1]
         
 
-        if ddebug:
+        if debug:
             print(artist, "---->", audio.tag.artist)
 
         # Updating Comments
         if audio.tag.comments:
             comments = audio.tag.comments[0].text
             audio.tag.comments.set(u"")
-            if ddebug:
+            if debug:
                 if not audio.tag.comments[0].text == "":
                     print(comments, "---->", audio.tag.comments[0].text)
 
+        # Split filename
+        filename_split = os.path.dirname(filename).split('\\')
+        if len(filename_split) == 1:
+            filename_split = os.path.dirname(filename).split('/')
         # Updating Album and Year
         if not audio.tag.album:
-            audio.tag.album = os.path.dirname(filename).split('/')[-1]
+            audio.tag.album = filename_split[-1]
 
         # Fixup Year
         if audio.tag.recording_date:
@@ -171,10 +173,10 @@ def set_id3(filename):
                     audio.tag.release_date = year.group()
                     audio.tag.recording_date = audio.tag.release_date
                 else:
-                    audio.tag.release_date = os.path.dirname(filename).split('/')[-2]
+                    audio.tag.release_date = filename_split[-2]
                     audio.tag.recording_date = audio.tag.release_date
 
-            if ddebug:
+            if debug:
                 year_= ""
                 if audio.tag.recording_date:
                     year_ = audio.tag.recording_date
@@ -185,7 +187,7 @@ def set_id3(filename):
             album = audio.tag.album
             audio.tag.album = re.sub(r' \(\b[12]{1}[0-9]{3}\b\)', '', audio.tag.album)
 
-            if ddebug:
+            if debug:
                 print(album, "---->", audio.tag.album)
 
         # Misc: Genre, Urls, Images etc
@@ -193,13 +195,16 @@ def set_id3(filename):
         for y in audio.tag.images:
             audio.tag.images.remove(y.description)
 
-        # if ddebug:
+        # if debug:
         #     input("Press Enter to confirm...")
         # Save Tags
         try:
+            audio.tag.save()
             audio.tag.save(version=(2, 3, 0))
         except:
-            print ("failed to save tag for ", filename)
+            logging.error('failed to save tag for %s', filename)
+            if debug:
+                print ('failed to save tag for ', filename)
             pass
 
         audio.tag.save(version=(1, 0, 0))
@@ -308,21 +313,30 @@ def getFromMassTamilan(year, links):
                 create_folder("123Music/" + year)
                 create_folder(music_folder)
 
+                if debug:
+                    logging.info('Downloading music_url %s', music_url)
+                    logging.info('as a file %s', music_file)
+                    logging.info('in the location %s', music_folder)
+                    logging.info('\n')
+
                 music_path = music_folder + '/' + music_file
                 # if debug == True:
                     # print(music_url, " -----> ", music_path)
                 if os.path.exists(music_path):
-                    print ("Already Downloaded: ", music_file)
-                else:
+                    if debug:
+                        logging.info('already downloaded %s in %s', music_file, music_folder)
+                elif not skip_download:
                     try:
                         music_request=urllib2.Request(music_url, None, headers)
                         with urllib2.urlopen(music_request) as response, open(music_path, 'wb') as out_file:
                             shutil.copyfileobj(response, out_file)
-                        print("BUFFERED WRITER?: ", ( re.sub(r'.*\/', '', out_file).strip('\'>')))
+                        if 1:
+                            logging.info('successfully downloaded file %s to %s', os.path.basename(out_file.name), music_folder)
                     except:
-                        # print ("URL ERROR: Failed to download: ", music_url)
-                        continue
-                set_id3(music_path)
+                        logging.error('Failed to download url %s', music_url)
+                        pass
+                if os.path.exists(music_path):
+                    set_id3(music_path)
 
 import multiprocessing
 from queue import Queue
@@ -369,16 +383,20 @@ def urlParse(link, key, value, regex=''):
 # Mind the "if" instruction!
 def downloadTamilSongs():
     queue = Queue()
-    for i in range(multiprocessing.cpu_count()):
+    for i in range(16): #multiprocessing.cpu_count()):
         worker = DownloadWorker(queue)
         worker.daemon = True
         worker.start()
     
     download_years = urlParse("https://masstamilan.in/browse-tamil-all-songs/", 'href', 'https', r'\b[12]{1}[0-9]{3}\b')
-    # download_years = [
-    #     # "https://masstamilan.in/1937-tamil-songs-download/", 
-    #     # "https://masstamilan.in/1935-tamil-songs-download/", 
-    #     "https://masstamilan.in/2004-tamil-songs-download/"]
+    download_years = [
+        # "https://masstamilan.in/1979-tamil-songs-download/", 
+        # "https://masstamilan.in/2018-tamil-songs-download/", 
+        # "https://masstamilan.in/2017-tamil-songs-download/", 
+        # "https://masstamilan.in/2016-tamil-songs-download/", 
+        # "https://masstamilan.in/2015-tamil-songs-download/", 
+        # "https://masstamilan.in/2014-tamil-songs-download/", 
+        "https://masstamilan.in/1933-tamil-songs-download/"]
     for download_year in download_years:
         year = re.search(r'\b[12]{1}[0-9]{3}\b', download_year).group()
         download_links = urlParse(download_year, 'href', 'https')
@@ -395,3 +413,7 @@ def downloadTamilSongs():
     queue.join() # starting workers
 
 downloadTamilSongs()
+
+# import cProfile
+
+# cProfile.run('downloadTamilSongs()')
