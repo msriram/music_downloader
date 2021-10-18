@@ -1,0 +1,546 @@
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:failed to save tag for 123Music/2002/Album/ChellameChellam.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/KadhalVanile.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/Muttaikkul.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/NilaveNilave.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/PillaiThamarai.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/Thalampoo.mp3
+ERROR:root:failed to save tag for 123Music/2002/Album/Thathalikuthe.mp3
+ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/AmmamaNallaPullai.mp3
+ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/MalayeMalaye.mp3
+ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/PattaPodamaVachukirada.mp3
+ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/PookalPesumPaasai.mp3
+ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/NamKanavugalNanavaiMaarum.mp3
+ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/NilaaNilaaOdiVaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/Niyaangelu.mp3
+ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/ElaiudhirKaalam.mp3
+ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/SillendruKaathu.mp3
+ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/Kadhalai.mp3
+ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/Kanavae.mp3
+ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/OdivaaKadhale.mp3
+ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/OrampoNaina.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/EnnakenaOruthi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/HeySivagami.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/KaatrinaiPolingu.mp3
+ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EnJannal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/Manasoram.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/UnnmayaiNaan.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ayyan/ViduthalaikuyilNaan.mp3
+ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EnnaNenatche.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/AayirathilOruvan.mp3
+ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/AdiyeIvale.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/HalloMr.Ethirkkatchi.mp3
+ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EttuJilla.mp3
+ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/KuthikkiraKuthikkira.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/KannaiKattikollaadhe.mp3
+ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/Poovakkelu.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/Narumugaiye.mp3
+ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/OoruOoraPogira.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/PooKodiyin.mp3
+ERROR:root:failed to save tag for 123Music/2011/Bhavani/AadupuliAattamdhan.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/UdalMannukku.mp3
+ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/VellayaiManam.mp3
+ERROR:root:failed to save tag for 123Music/2011/Bhavani/KarpuraKannalagi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Bhavani/KaruppusamyKakkisatta.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/UnnoduNaan.mp3
+ERROR:root:failed to save tag for 123Music/2011/Bhavani/MalaiSaaindhal.mp3
+ERROR:root:failed to save tag for 123Music/1997/Iruvar/Vennilaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Bhavani/MullaiMalarMele.mp3
+ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/BodiGanesan.mp3
+ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/KolamPotta.mp3
+ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/MurattuMachan.mp3
+ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/PootiKidanthaManasu.mp3
+ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/VanjiraMeen.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/Doodaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/KaiyaThodaVenaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/NadhiyileFullyLoaded.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/Nadhiyile.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/OruNaalVidumurai.mp3
+ERROR:root:failed to save tag for 123Music/2011/Doo/VaaVaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/EnthanKillambindanya.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/KaalayileKanVilichu.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/KadanaiKoduthaNanba.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/Kannadhasan.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/Mazhaiyuthirkaalam.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/Simparapara.mp3
+ERROR:root:failed to save tag for 123Music/2011/Eththan/SivappuThamaraiye.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/AhMudhalAkku.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/Coimbatore.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/EnnaiThedi.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/Kadhaliye.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/NaanThaanKadavulada.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/ThalattuSongs.mp3
+ERROR:root:failed to save tag for 123Music/2005/Jithan/ThemeMusic.mp3
+ERROR:root:failed to save tag for 123Music/2011/Kaantham/Hello.mp3
+ERROR:root:failed to save tag for 123Music/2011/Kaantham/NeeVanthal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Kaantham/Tamizhanban.mp3
+ERROR:root:failed to save tag for 123Music/2011/Kaantham/UnAzhagil.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/AlliMudicha.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/AngeYaruParu.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/Oorokoru.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileyHariharan.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileyIlayaraaja.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileySadhanaSargam.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/VanamAdhirave.mp3
+ERROR:root:failed to save tag for 123Music/2002/Ramana/Venilavin.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/AdaSorueduthu.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/BoomiThaduthalum.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/IndhaBoomi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/Mansurukiathe.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/PriyamaePriyame.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/UllaeOru.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/UnnaiVirumbi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Karungali/VaadaSoorapuli.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/Iyierandu.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/KambanukkuKaikoduthu.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/DevathayaiKanden.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ManasuRendum.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/NenjoduKalinthidu.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThathiThathiThaavuthey.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThottuThottu.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/Mannukullae.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/18Vayathil.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/KadhalKonden.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/NatpinilaeNatpinilae.mp3
+ERROR:root:failed to save tag for 123Music/2020/Biskoth/BabySong.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/UnnaiThozhiEnbatha.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic1.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic2.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NallaManushanuku.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic3.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic4.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic5.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic6.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic7.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic8.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NandriSollaUnakuII.mp3
+ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic9.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NandriSollaUnaku.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/OorAludha.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/PangajameRangamaniye.mp3
+ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/RettakiliRettakili.mp3
+ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/Acham.mp3
+ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/AdugiraMaatai.mp3
+ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/KadhalEnbadhai.mp3
+ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/KulanariKootam.mp3
+ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/Vizhigalile.mp3
+ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/AzhaganaPonnu.mp3
+ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/Kadhaliyae.mp3
+ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/KichuKichu.mp3
+ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/MambazhamVikkkura.mp3
+ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/OrumuraiPiranthen.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maharaja/AreDhammare.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maharaja/HelloNanbaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maharaja/MexiMexicanLady.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maharaja/MyNameIsRajuBaby.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maharaja/RaajaRaajaMahaaraaja.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maithanam/KadhalOru.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maithanam/KanavaNesama.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maithanam/KandomKandom.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maithanam/LoveTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/Maithanam/MaithaanamMaithaanam.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/KadhalVeenila.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/KadhalVennila.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/MainaveMainave.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/NadhiyeAdiNayil.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/RojaPooMalaiyilae.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/ThavaniyeEnnai.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/VaanilVennila.mp3
+ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/YengalVeetil.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/SoakkuSundari.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/Singakutti.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/NenchaThiranthu.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/NaanVanavillaye.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/Machamirukira.mp3
+ERROR:root:failed to save tag for 123Music/1997/Moovendar/KumudhamPolVantha.mp3
+ERROR:root:failed to save tag for 123Music/2006/Rendu/KuraiOnrumillai.mp3
+ERROR:root:failed to save tag for 123Music/2006/Rendu/MobilaMobila.mp3
+ERROR:root:failed to save tag for 123Music/2006/Rendu/NeeEnThozhiya.mp3
+ERROR:root:failed to save tag for 123Music/2006/Rendu/VartaVartaVarta.mp3
+ERROR:root:failed to save tag for 123Music/2006/Rendu/YaroYevalo.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/01JollyaJollya.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/02KadhalDesaYuvarani.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/03Mayangathe.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/04PongumKanalai.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/05Surre.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/06EmanaKolluthu.mp3
+ERROR:root:failed to save tag for 123Music/2011/OmSakthi/07MahisasuraMarthini.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/Adithkali.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/AgaraMuthala.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/KanakuilEllam.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/PadiThodi.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/UnRojaIthalil.mp3
+ERROR:root:failed to save tag for 123Music/2011/OruSol/UnnaiSaranadithan.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/AzhakanaRatsasiye.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/KurukkuSiruthavale.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/Mudhalvane.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/ShakkalakkaBaby.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/UlundhuVithaikayile.mp3
+ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/Uppukarauvadu.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/BharathirajaVoiceI.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/BharathirajaVoiceII.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/MusicBit.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/MusicBitII.mp3
+ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/AmmaEnAmma.mp3
+ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/AmmaEnbathu.mp3
+ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/BoomBoom.mp3
+ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/RekkaiKatti.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/OruNaal.mp3
+ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/RekkaiKatti2.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/PullaiThinkum.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/AasaPattaEllathayum.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/FeelOfKosuKadi.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/JulyMaadhathil.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/KadiKadi.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/Sakiyaa.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/ThaThaNamitha.mp3
+ERROR:root:failed to save tag for 123Music/2007/Viyabari/VetriyaiKandavan.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/SakiyaaII.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/ThemeMusic.mp3
+ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/ThemeMusicII.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/EnManathai.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/KissMe.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/AndiOoru.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/Enatho.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/IthuVaraiParthailai.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/LayollaCollege.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/KathalPuyalOndru.mp3
+ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/OBabyOBaby.mp3
+ERROR:root:failed to add tag for 123Music/2009/Mathan/NaanKannitheevu.mp3, invalid load
+ERROR:root:failed to save tag for 123Music/2011/Rowthiram/AdiyeUnKangal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Golimaare.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/Nellagiri.mp3
+ERROR:root:failed to save tag for 123Music/2011/Rowthiram/MaalaiMangumNeram.mp3
+ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Senganthal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Theme.mp3
+ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/MudhalMozhi.mp3
+ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/NenjathinJinJin.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/SuperHit.mp3
+ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/OduMamey.mp3
+ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/UllamThudikudha.mp3
+ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/Vandhutanya.mp3
+ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/Vanakkiliye.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/ClashOfTheTitansTheWarCry.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/EngaYeriyaOurStory.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/GoingThruEmotionsPrelude.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Adiyae.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/NeruppuVaayinilPeekIntoAssasinsLife.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Emmaiyaalum.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Kaadai.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/NammaNadai.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/OruNaalilItAllComesDownToThis.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/OmSivaSiva.mp3
+ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/SollaSolla.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/OruNaalilComposersDreamMix.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/PulpesumPooPesumGangstersMarriageParty.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/SellingDopeTheBeginning.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/PudhupettaiMainThemeSurvivalOfTheFittest.mp3
+ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/VarriyaaNightLife.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/Enadhu.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/Munpani.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/OruNaalMattum.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/SaravanaSamayal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/Valliamma.mp3
+ERROR:root:failed to save tag for 123Music/2011/Seedan/Yadumaghiye.mp3
+ERROR:root:failed to save tag for 123Music/2011/Soolnilai/ElanthariElanthari.mp3
+ERROR:root:failed to save tag for 123Music/2011/Soolnilai/KanneNeeSolladi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Soolnilai/KooduvittuKooduppayum.mp3
+ERROR:root:failed to save tag for 123Music/2011/Soolnilai/OtraiViralal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Soolnilai/Uyire.Uyire.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/ColourColoura.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/IsaiTharum.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/IsaiTharum2.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/KaanchaMaadu.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/MinnalaiPaarkum.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/SodakkuPodaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/VennilaSolayil.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/AadumAlaiMelae.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/EmotionalUnleashedViolin.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/FragranceOfLove.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/Mercuryin.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/SollavanthaenF.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/SollavanthaenM.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/Sollavanthaen.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/SuzhalThemeMusic.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/VaaNanbaaVaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/Suzhal/YaarYaaro.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/DevathayeVaavaa.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/KanthaKadamba.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/OhBaby.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/UyireUyire.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/UyireUyireII.mp3
+ERROR:root:failed to save tag for 123Music/2007/Malaikottai/YehAatha.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/AndhaVaanam.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/Athipalam.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/PongaloPongal.mp3
+ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/EngeyoPartha.mp3
+ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/NenjaiKasaki.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/Yennavendru.mp3
+ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/OhBabyOhBaby.mp3
+ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/OruNaalaikkul.mp3
+ERROR:root:failed to add tag for 123Music/2007/Lee/RockNRoll.mp3, invalid load
+ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/PalakkattuPakkathile.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/AdiyePottePulla.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/CellerToneSongsCodes.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/Devathaiyah.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/EnathuNenjile.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/EngeEnge.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/Idhazhil.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/Kathalane.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/Muthamizhe.mp3
+ERROR:root:failed to save tag for 123Music/2011/Naanga/RomanceRowdinga.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/AnbeAnbe.mp3
+ERROR:root:failed to save tag for 123Music/1994/Pavithra/AzhaguNilave.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/ColumbusColumbu.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/EnnakeEnnaka.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/KannoduKaanberallam.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/Poovukkul.mp3
+ERROR:root:failed to save tag for 123Music/1998/Jeans/VarayaThozhi.mp3
+ERROR:root:failed to save tag for 123Music/1994/Pavithra/Eachchampalam.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/EppoNee.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/GutkhaLakkadi.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/KaalaKaala.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/KuttiPisase.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/VandhuttaandaKaalai.mp3
+ERROR:root:failed to save tag for 123Music/2007/Kaalai/Veeramulla.mp3
+ERROR:root:failed to save tag for 123Music/1994/Pavithra/MottuVitadha.mp3
+ERROR:root:failed to save tag for 123Music/2011/Narthaki/ChinnanchiruIdhayathil.mp3
+ERROR:root:failed to save tag for 123Music/2011/Narthaki/PoovinManamPoovilEllai.mp3
+ERROR:root:failed to save tag for 123Music/2011/Narthaki/PooyevaaMangalaPooyevaa.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/JillEndruOruKaadhal.mp3
+ERROR:root:failed to save tag for 123Music/1994/Pavithra/SevaanamChinna.mp3
+ERROR:root:failed to save tag for 123Music/2011/Narthaki/TheDestiny.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/KummiAdiKummi.mp3
+ERROR:root:failed to save tag for 123Music/2011/Narthaki/VaanMazhaiyinThuligal.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MaajaMaajaMaja.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MaarichamYatho.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MachakariMachakari.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MunbeVaaEnVaa.mp3
+ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/NewYorkNagaram.mp3
+ERROR:root:failed to save tag for 123Music/2011/Oodhari/KallaThonikaara.mp3
+ERROR:root:failed to save tag for 123Music/2011/Oodhari/KurukuSavalathaiya.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/AdiYaarathu.mp3
+ERROR:root:failed to save tag for 123Music/2011/Oodhari/OruVarthai.mp3
+ERROR:root:failed to save tag for 123Music/2011/Oodhari/UyirSollumKadhal.mp3
+ERROR:root:failed to save tag for 123Music/2011/Oodhari/ValaivilValaivil.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/AnbullaMannavane.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/InthaPonthendral.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/ManaMadurai.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/SaravanaBava.mp3
+ERROR:root:failed to save tag for 123Music/1996/Mettukudi/VelvattaVelvatta.mp3
+ERROR:root:failed to save tag for 123Music/2008/KannumKannum/AnbeyAnbey.mp3
+ERROR:root:failed to save tag for 123Music/2008/KannumKannum/EnnaiyumUnnaiyum.mp3
+ERROR:root:failed to save tag for 123Music/2008/KannumKannum/EnnannuPuriyalaiye.mp3
+ERROR:root:failed to save tag for 123Music/2008/KannumKannum/KurtaalamKurtaalam.mp3
+ERROR:root:failed to save tag for 123Music/2008/KannumKannum/PathinettuVayasu.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/JalakkuJalakku.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/Enadhuyirae.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/MudhalMazhai.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/KangalaMinnala.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/OruMugamo.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/RagasiyaKanavugal.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/NadodiNanbha.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/RanguRangamma.mp3
+ERROR:root:failed to save tag for 123Music/2007/Bheema/SiruPaarvayalae.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/OhThendrale.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/TakeItEasy.mp3
+ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/UlagellamKadhal.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/AreYouCrazy.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/DaddyMummy.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/DheemthanakkaThillana.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/HeyRamaRamaRama.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/AzeemOShaanShahenshah.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/JalsaJalsa.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/JalsaJalsaTheDSPMix.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/IthayamIdamMariyathaeVizhi.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/NeeKobapattalNaanum.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/KhwajaMereKhwaja.mp3
+ERROR:root:failed to save tag for 123Music/2009/Villu/VaadaMapilley.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/KhwajaMereKhwajaII.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MannMohana.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MulumaathyAvalathuMugaamII.mp3
+ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MulumathyAvalathuMugaam.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/AdaimazhaiKalam.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/AdhaiKoodavaa.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/AasapattaEllathayumThedi.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/NaanVaraindhuVaitha.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/MunnalaNeePonaNamPinnale.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/OveevuvarthePesuUnnevazhthuven.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/OreOrNaal.mp3
+ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/VariyaVariyaVeluthukeetta.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/SutrivarumBoomi.mp3
+ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/UllaasaUlagam.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/AasaMachan.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/NaanOndruNinai.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/PaperaPathiya.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/Santhosam.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/SonnanAntha.mp3
+ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/YerathuSarukku.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/EvanIvan.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/IthanaiYugamai.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/LakaLaka.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/PongaVechom.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/RingTing.mp3
+ERROR:root:failed to save tag for 123Music/2011/Udhayan/Udhayan.mp3
+ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AalaPaaruAala.mp3
+ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AanaPoranthavan.mp3
+ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AthaPonnu.mp3
+ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/Ponnala.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/EppadioMattikiten.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/MGRIllenga.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruAdangapidari.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruKal.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruKalII.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruPaarvaiyil.mp3
+ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/ThithikumTheeai.mp3
+ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/Saayaali.mp3
+ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/PachaiDhrogangal.mp3
+ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/KaarIrul.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/ATaleDarkTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/AararoAariro.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/BoxPandoraTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/ChaosOrderTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/HopeTheLastResortTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/KabhiJind.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/KannitheevuPonna.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/LifeGoesonTheme.mp3
+ERROR:root:failed to save tag for 123Music/2011/YuththamSei/VedhamPudhumaiSei.mp3
+ERROR:root:failed to save tag for 123Music/1993/NaanPesaNinaipathellam/PookuilRaagameaF.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/ChinnaThayaval.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/Kaattukuyilu.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/Margazhithan.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/PuthamPuthuPoo.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/RakkamaKaiyaThattu.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/SundariKannal.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/YamunaiAatrile.mp3
+ERROR:root:failed to save tag for 123Music/1991/Thalapathi/YamunaiAatrile2.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/EnnaVenumSollungada.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/EnnaVenumSollungada.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/KaalaiThendralPaadiVarum.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/OttaSattiyaVachikittu.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/VanthalMahalkshmiye.mp3
+ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/VanthalMahalkshmiye.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/IKMSTheme.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/Ilanthamizha.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/KannaNeeEnnai.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/NenjamNenjam.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/RajaSingam.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/VellaikariNee.mp3
+ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/WarTheme.mp3
+ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/ValliValli.mp3
+ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/OruPaatale.mp3
+ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/OorellamSamiyaga.mp3
+ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/Kutthuthadi.mp3
+ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/InthaAmmanukku.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/PotriPaadadiPenne.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/InjiIdupazhaga.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/AdaPuthiyathuPiranthadhu.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/MasaruPonnaeVaruga.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/ManamagaleManamagale.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/InjiIdupazhaga.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/VaanamThottuPona.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/SandhuPottu.mp3
+ERROR:root:failed to save tag for 123Music/1993/DevarMagan/PotriPaadadiPenneBit.mp3
+ERROR:root:failed to add tag for 123Music/1972/Agathiyar/AandavanDharisaname.mp3, invalid load
+ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/ThangaChangili.mp3
+ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/ThalattaNaan.mp3
+ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/YerikaraiPoongatre.mp3
+ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/BhoopalamIsaikkum.mp3
+ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/PankajaValli.mp3
+ERROR:root:failed to save tag for 123Music/1979/KadavulAmaithaMedai/MayileMayileUnThogai.mp3
+ERROR:root:failed to save tag for 123Music/1979/KadavulAmaithaMedai/ThendraleNeePesu.mp3
+ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/AattamAattam.mp3
+ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/MasilaNilaveNam.mp3
+ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/BagappirivinaiDialogues.mp3
+ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/SindhanaiSeiManame.mp3
+ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/EanPiranthaiMaganae.mp3
+ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/SoruManakkumAndAmbuliyai.mp3
+ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/OtrumaiyaiVaazhvathaale.mp3
+ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/PaaloottiTherodumEngal.mp3
+ERROR:root:failed to save tag for 123Music/1958/ManamullaMaruthaaram/InbamEngey.mp3
+ERROR:root:failed to save tag for 123Music/1958/ManamullaMaruthaaram/KaiyileIruppathenna.mp3
+ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/NallakalamVaruguthu.mp3
+ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/ThangaMohana.mp3
+ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/Unakkaaga.mp3
+ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/KaasikkuPonaal.mp3
+ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/ThensuvaiMevum.mp3
+ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/VaadhamVambu.mp3
+ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/IruviahiParugumVirundu.mp3
+ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/NadadaRajaNadada.mp3
+ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/VelVelVelavanai.mp3
+ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/KaasikkuPonaal.mp3
+ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/ThensuvaiMevum.mp3
+ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/VaadhamVambu.mp3
+ERROR:root:failed to add tag for 123Music/1982/ThanikaatuRaja/NaanThaanTopuStarmusiq.cc.mp3, invalid load
+ERROR:root:failed to save tag for 123Music/1953/Kangal/AluGanam.mp3
+ERROR:root:failed to save tag for 123Music/1953/Kangal/InbaVeenaiyai.mp3
+ERROR:root:failed to save tag for 123Music/1955/Needhipathi/JiluJilumEnaJolikkum.mp3
+ERROR:root:failed to save tag for 123Music/1955/Needhipathi/MuthedukkumAasaiyile.mp3
+ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/AbaayaArivippu.mp3
+ERROR:root:failed to save tag for 123Music/1955/Needhipathi/OruDevathaiVanthal.mp3
+ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/InbaNilaikaana.mp3
+ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/KannVazhiPugundhu.mp3
+ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/KurangilirunthuPiranthavan.mp3
+ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/Pengalai.mp3
+ERROR:root:failed to save tag for 123Music/2020/Biskoth/BabySong.mp3
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:failed to save tag for 123Music/2015/Biskoth/BabySong.mp3
+ERROR:root:failed to save tag for 123Music/2014/Biskoth/BabySong.mp3
+ERROR:root:failed to save tag for 123Music/2013/Biskoth/BabySong.mp3
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.5
