@@ -10,6 +10,7 @@ from html.parser import HTMLParser
 import shutil
 import os
 import youtube_dl
+import fixNames
 
 debug = True
 skip_download = False
@@ -33,62 +34,63 @@ eyed3.log.setLevel("ERROR")
 hexaPattern = r'%[0-9a-fA-F]{2}'
 bitratePattern = r'[0-9]{3}kbps'
 yearPattern = r'[12]{1}[0-9]{3}'
-def fixName(tag):
-    # Preliminary change, must modify for each website
-    def fixWebsiteName(file):
-        file = re.sub(r'Masstamilan\.in','', file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'Masstamilan\.com','', file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'-Masstamilan\.in', '',file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'- Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'\[Masstamilan\.In\]', '',file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'\[Starmusiq\.La\]', '',file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'Masstamilan In', '', file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'www\.', '', file, flags=re.IGNORECASE).lstrip()
-        file = re.sub(r'-\.mp3', '.mp3', file, flags=re.IGNORECASE).lstrip()
-        return file
+# def fixNames.fixTag(tag):
+#     # Preliminary change, must modify for each website
+#     def fixWebsiteName(file):
+#         file = re.sub(r'Masstamilan\.in','', file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'Masstamilan\.com','', file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'-Masstamilan\.in', '',file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'- Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'\[Masstamilan\.In\]', '',file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'\[Starmusiq\.La\]', '',file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'Masstamilan In', '', file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'www\.', '', file, flags=re.IGNORECASE).lstrip()
+#         file = re.sub(r'-\.mp3', '.mp3', file, flags=re.IGNORECASE).lstrip()
 
-    # Common stuff
-    def fixPunctuation(file):
-        try:
-            file = re.sub(hexaPattern, '', file)
-            file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
-            file = re.sub(yearPattern, '', file)
-            file = re.sub('[','', file)
-            file = re.sub(']','', file)
-            file = re.sub('_','', file)
-            file = re.sub(r'\.+', '.', file)
-            file = re.sub(r'-\.', '.', file)
-            file = re.sub(r'-', '', file)
-            # file = re.sub(r'-+$', '', file)
-        except:
-            pass
-        return file
+#         return file
+
+#     # Common stuff
+#     def fixPunctuation(file):
+#         try:
+#             file = re.sub(hexaPattern, '', file)
+#             file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
+#             file = re.sub(yearPattern, '', file)
+#             file = re.sub('[','', file)
+#             file = re.sub(']','', file)
+#             file = re.sub('_','', file)
+#             file = re.sub(r'\.+', '.', file)
+#             file = re.sub(r'-\.', '.', file)
+#             file = re.sub(r'-', '', file)
+#             # file = re.sub(r'-+$', '', file)
+#         except:
+#             pass
+#         return file
     
-    return fixPunctuation(fixWebsiteName(tag))
+#     return fixPunctuation(fixWebsiteName(tag))
 
-def fixArtistNames(artist):
-    artist = re.sub(r'\.', ' ', artist)
-    artist = re.sub(r'&', ', ', artist)
-    artist = re.sub(r'  ', ' ', artist)
+# def fixArtistNames(artist):
+#     artist = re.sub(r'\.', ' ', artist)
+#     artist = re.sub(r'&', ', ', artist)
+#     artist = re.sub(r'  ', ' ', artist)
 
-    # Specific artist names
-    artist = re.sub(r'ar ', 'A R ', artist, flags=re.IGNORECASE)
-    artist = re.sub(r'a.r.', 'A R ', artist, flags=re.IGNORECASE)
-    artist = re.sub(r'kj ', 'K J ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'k.j.', 'K J ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'spb ', 'S P B ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r's.p.b.', 'S P B ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'gv ', 'G V ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'g.v.', 'G V ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'S P B Lasubrahmanyam', 'S P B;',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'-', ';', artist)
-    artist = re.sub(r',', ';',artist)
-    artist = re.sub(r',', ';',artist)
-    artist = re.sub(r'/', ';',artist)
-    artist = re.sub(r'\\', ';',artist)
-    artist = artist.title().lstrip().rstrip()
-    return artist
+#     # Specific artist names
+#     artist = re.sub(r'ar ', 'A R ', artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'a\.r\.', 'A R ', artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'kj ', 'K J ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'k\.j\.', 'K J ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'spb ', 'S P B ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r's\.p\.b\.', 'S P B ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'gv ', 'G V ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'g\.v\.', 'G V ',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'S P B Lasubrahmanyam', 'S P B;',artist, flags=re.IGNORECASE)
+#     artist = re.sub(r'-', ';', artist)
+#     artist = re.sub(r',', ';',artist)
+#     artist = re.sub(r',', ';',artist)
+#     artist = re.sub(r'/', ';',artist)
+#     artist = re.sub(r'\\', ';',artist)
+#     artist = artist.title().lstrip().rstrip()
+#     return artist
 
 
 def set_id3(filename):
@@ -107,13 +109,13 @@ def set_id3(filename):
         audio.tag.read_only = False
         # Cleanup Tags
         if audio.tag.title:
-            fixName(audio.tag.title)
+            fixNames.fixTag(audio.tag.title)
         if audio.tag.album:
-            fixName(audio.tag.album)
+            fixNames.fixTag(audio.tag.album)
         if audio.tag.album_artist:
-            fixName(audio.tag.album_artist)
+            fixNames.fixTag(audio.tag.album_artist)
         if audio.tag.artist:
-            fixName(audio.tag.artist)
+            fixNames.fixTag(audio.tag.artist)
 
         # Updating Album-Artist
         album_artist = audio.tag.album_artist if audio.tag.album_artist else ""
@@ -124,7 +126,7 @@ def set_id3(filename):
             elif audio.tag.artist:
                 audio.tag.album_artist = audio.tag.artist.split(",")[0]
         if audio.tag.album_artist:
-            audio.tag.album_artist = fixArtistNames(audio.tag.album_artist)
+            audio.tag.album_artist = fixNames.fixArtistNames(audio.tag.album_artist)
 
             if debug:
                 print(album_artist,  "---->", audio.tag.album_artist)
@@ -136,7 +138,7 @@ def set_id3(filename):
                 audio.tag.artist = audio.tag.album_artist
 
         if audio.tag.artist:
-            audio.tag.artist = fixArtistNames(audio.tag.artist)
+            audio.tag.artist = fixNames.fixArtistNames(audio.tag.artist)
 
         # title_split = audio.tag.title.split("-")
         # # print (title_split)
@@ -226,20 +228,25 @@ def set_id3(filename):
         #     print ("Failed to search google ")
         #     pass
         if debug:
-            mp3 = MP3File(filename)
+            mp3 = MP3File(re.sub(r'\.Mp3', '.mp3', filename))
             print('-------------------------------')
+            mp3.artist = fixNames.fixTag(mp3.artist)
+            mp3.album = fixNames.fixTag(mp3.album)
+            mp3.song = fixNames.fixTag(mp3.song)
+            mp3.composer = fixNames.fixTag(mp3.composer)
             print("artist: ", mp3.artist)
             print("album: ", mp3.album)
             print("song: ", mp3.song)
             print("track: ", mp3.track)
-            print("comment: ", mp3.comment)
             print("year: ", mp3.year)
             print("genre: ", mp3.genre)
             print("band: ", mp3.band)
             print("composer: ", mp3.composer)
             mp3.copyright=""
+            mp3.comment=""
             mp3.url=""
             mp3.publisher=""
+            print("comment: ", mp3.comment)
             print("copyright: ", mp3.copyright)
             print("url: ", mp3.url)
             print("publisher: ", mp3.publisher)
@@ -320,9 +327,9 @@ def getFromMassTamilanMP(link, year=2021):
         if 'mp3' in l['href']:
             music_url = l['href'] #.replace('\\\'','%27').replace(' ','%20').replace('(','%28').replace(')','.set(u"")
             # print (music_url)
-            music_file = fixName(music_url.split("/")[-1])
+            music_file = fixNames.fixTag(music_url.split("/")[-1])
             # print (music_file)
-            music_folder = os.path.join("D:\Music", "Tamil", year, re.sub(r'\([0-9][0-9][0-9][0-9]\).*','', fixName(music_url.split("/")[-2]), flags=re.IGNORECASE))
+            music_folder = os.path.join(os.getcwd(), "123Music", year, re.sub(r'\([0-9][0-9][0-9][0-9]\).*','', fixNames.fixTag(music_url.split("/")[-2]), flags=re.IGNORECASE))
             print (music_folder)
             create_folder(music_folder)
 
