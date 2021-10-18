@@ -9,8 +9,9 @@ from html.parser import HTMLParser
 import shutil
 import os
 import youtube_dl
+import eyed3Tagger
 
-debug = False
+debug = True
 skip_download = False
 user_agent = 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'
 import logging
@@ -51,15 +52,15 @@ def fixName(tag):
         file = re.sub(hexaPattern, '', file)
         file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
         file = re.sub(yearPattern, '', file)
-        file = re.sub('[','', file)
-        file = re.sub(']','', file)
+        # file = re.sub('[','', file)
+        # file = re.sub(']','', file)
         file = re.sub('_','', file)
         file = re.sub(r'\.+', '.', file)
         file = re.sub(r'-\.', '.', file)
         file = re.sub(r'-', '', file)
         # file = re.sub(r'-+$', '', file)
         return file
-    
+
     return fixPunctuation(fixWebsiteName(tag))
 
 def fixArtistNames(artist):
@@ -69,13 +70,15 @@ def fixArtistNames(artist):
 
     # Specific artist names
     artist = re.sub(r'ar ', 'A R ', artist, flags=re.IGNORECASE)
-    artist = re.sub(r'a.r.', 'A R ', artist, flags=re.IGNORECASE)
+    artist = re.sub(r'a\.r\.', 'A R ', artist, flags=re.IGNORECASE)
     artist = re.sub(r'kj ', 'K J ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'k.j.', 'K J ',artist, flags=re.IGNORECASE)
+    artist = re.sub(r'k\.j\.', 'K J ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'spb ', 'S P B ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r's.p.b.', 'S P B ',artist, flags=re.IGNORECASE)
+    artist = re.sub(r's\.p\.b.', 'S P B ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'gv ', 'G V ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'g.v.', 'G V ',artist, flags=re.IGNORECASE)
+    artist = re.sub(r'MassTamilan\.In', '',artist, flags=re.IGNORECASE)
+    artist = re.sub(r'MassTamilan In', '',artist, flags=re.IGNORECASE)
     artist = re.sub(r'S P B Lasubrahmanyam', 'S P B;',artist, flags=re.IGNORECASE)
     artist = re.sub(r'-', ';', artist)
     artist = re.sub(r',', ';',artist)
@@ -298,7 +301,7 @@ def getFromMassTamilan(year, links):
             html = response.read()
             response.close()
         except urllib2.HTTPError as e:
-            print(e, 'while fetching', url)
+            print(e, 'while fetching', link)
             return
         
         parser = MyHTMLParser()
@@ -390,12 +393,13 @@ def downloadTamilSongs():
     
     download_years = urlParse("https://masstamilan.in/browse-tamil-all-songs/", 'href', 'https', r'\b[12]{1}[0-9]{3}\b')
     download_years = [
-        # "https://masstamilan.in/1979-tamil-songs-download/", 
+        "https://masstamilan.in/1979-tamil-songs-download/", 
         # "https://masstamilan.in/2018-tamil-songs-download/", 
         # "https://masstamilan.in/2017-tamil-songs-download/", 
         # "https://masstamilan.in/2016-tamil-songs-download/", 
         # "https://masstamilan.in/2015-tamil-songs-download/", 
         # "https://masstamilan.in/2014-tamil-songs-download/", 
+        # "https://masstamilan.in/2021-tamil-songs-download/",
         "https://masstamilan.in/1933-tamil-songs-download/"]
     for download_year in download_years:
         year = re.search(r'\b[12]{1}[0-9]{3}\b', download_year).group()
