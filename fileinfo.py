@@ -54,7 +54,7 @@ def list_files(startpath):
                 # if debug:
                     # logging.info('Setting tag for %s', filePath)
                 queue.put(os.path.abspath(filePath))
-            queue.join()
+    queue.join()
 
 if __name__ == "__main__":
     if sys.argv[1:]:
