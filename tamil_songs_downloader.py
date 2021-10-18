@@ -1,5 +1,6 @@
 ################ DOWNLOAD TAMIL SONGS FROM TAMIL TAMILTUNES.PRO ###################
 from __future__ import print_function, unicode_literals
+import multiprocessing as mp
 import sys
 try:
     import urllib.request as urllib2
@@ -9,7 +10,6 @@ from html.parser import HTMLParser
 import shutil
 import os
 import youtube_dl
-import eyed3Tagger
 
 debug = True
 skip_download = False
@@ -45,22 +45,26 @@ def fixName(tag):
         file = re.sub(r'Masstamilan\.In', '',file, flags=re.IGNORECASE).lstrip()
         file = re.sub(r'Masstamilan In', '', file, flags=re.IGNORECASE).lstrip()
         file = re.sub(r'www\.', '', file, flags=re.IGNORECASE).lstrip()
+        file = re.sub(r'-\.mp3', '.mp3', file, flags=re.IGNORECASE).lstrip()
         return file
 
     # Common stuff
     def fixPunctuation(file):
-        file = re.sub(hexaPattern, '', file)
-        file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
-        file = re.sub(yearPattern, '', file)
-        # file = re.sub('[','', file)
-        # file = re.sub(']','', file)
-        file = re.sub('_','', file)
-        file = re.sub(r'\.+', '.', file)
-        file = re.sub(r'-\.', '.', file)
-        file = re.sub(r'-', '', file)
-        # file = re.sub(r'-+$', '', file)
+        try:
+            file = re.sub(hexaPattern, '', file)
+            file = re.sub(bitratePattern, '', file, flags=re.IGNORECASE)
+            file = re.sub(yearPattern, '', file)
+            file = re.sub('[','', file)
+            file = re.sub(']','', file)
+            file = re.sub('_','', file)
+            file = re.sub(r'\.+', '.', file)
+            file = re.sub(r'-\.', '.', file)
+            file = re.sub(r'-', '', file)
+            # file = re.sub(r'-+$', '', file)
+        except:
+            pass
         return file
-
+    
     return fixPunctuation(fixWebsiteName(tag))
 
 def fixArtistNames(artist):
@@ -70,15 +74,13 @@ def fixArtistNames(artist):
 
     # Specific artist names
     artist = re.sub(r'ar ', 'A R ', artist, flags=re.IGNORECASE)
-    artist = re.sub(r'a\.r\.', 'A R ', artist, flags=re.IGNORECASE)
+    artist = re.sub(r'a.r.', 'A R ', artist, flags=re.IGNORECASE)
     artist = re.sub(r'kj ', 'K J ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'k\.j\.', 'K J ',artist, flags=re.IGNORECASE)
+    artist = re.sub(r'k.j.', 'K J ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'spb ', 'S P B ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r's\.p\.b.', 'S P B ',artist, flags=re.IGNORECASE)
+    artist = re.sub(r's.p.b.', 'S P B ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'gv ', 'G V ',artist, flags=re.IGNORECASE)
     artist = re.sub(r'g.v.', 'G V ',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'MassTamilan\.In', '',artist, flags=re.IGNORECASE)
-    artist = re.sub(r'MassTamilan In', '',artist, flags=re.IGNORECASE)
     artist = re.sub(r'S P B Lasubrahmanyam', 'S P B;',artist, flags=re.IGNORECASE)
     artist = re.sub(r'-', ';', artist)
     artist = re.sub(r',', ';',artist)
@@ -260,13 +262,13 @@ class MyHTMLParser(HTMLParser):
         self.links.append(attr)
 
 def create_folder(folder):
-    path = os.getcwd()
     if not os.path.exists(folder):
         try:
             os.mkdir(folder)
         except OSError:
             if debug == True:
                 print ("Creation of the directory %s failed" % folder)
+                exit(1)
         else:
             if debug == True:
                 print ("Successfully created the directory %s " % folder)
@@ -291,75 +293,83 @@ def getFromYoutube(link):
     with youtube_dl.YoutubeDL(ydl_opts) as ydl:
         ydl.download([link])
 
+
 def getFromMassTamilan(year, links):
     print("Downloading Movies from year: ", year)
     for link in links:
-        headers={'User-Agent':user_agent,}
-        request=urllib2.Request(link, None, headers)
-        try:
-            response = urllib2.urlopen(request)
-            html = response.read()
-            response.close()
-        except urllib2.HTTPError as e:
-            print(e, 'while fetching', link)
-            return
+        getFromMassTamilanMP(link, year)
         
-        parser = MyHTMLParser()
-        parser.links = []
-        parser.feed(str(html))
+def getFromMassTamilanMP(link, year=2021):
+    # print("Downloading Movies from link: ", link)
+    # return
+    headers={'User-Agent':user_agent,}
+    request=urllib2.Request(link, None, headers)
+    try:
+        response = urllib2.urlopen(request)
+        html = response.read()
+        response.close()
+    except urllib2.HTTPError as e:
+        print(e, 'while fetching', url)
+        return
+    
+    parser = MyHTMLParser()
+    parser.links = []
+    parser.feed(str(html))
 
-        for l in parser.links:
-            if 'mp3' in l['href']:
-                music_url = l['href'] #.replace('\\\'','%27').replace(' ','%20').replace('(','%28').replace(')','.set(u"")
-                music_file = fixName(music_url.split("/")[-1])
-                music_folder = "123Music/" + year + "/" + fixName(music_url.split("/")[-2])
-                create_folder("123Music/" + year)
-                create_folder(music_folder)
+    for l in parser.links:
+        if 'mp3' in l['href']:
+            music_url = l['href'] #.replace('\\\'','%27').replace(' ','%20').replace('(','%28').replace(')','.set(u"")
+            # print (music_url)
+            music_file = fixName(music_url.split("/")[-1])
+            # print (music_file)
+            music_folder = os.path.join("D:\Music", "Tamil", year, re.sub(r'\([0-9][0-9][0-9][0-9]\).*','', fixName(music_url.split("/")[-2]), flags=re.IGNORECASE))
+            print (music_folder)
+            create_folder(music_folder)
 
+            if debug:
+                logging.info('Downloading music_url %s', music_url)
+                logging.info('as a file %s', music_file)
+                logging.info('in the location %s', music_folder)
+                logging.info('\n')
+
+            music_path = music_folder + '/' + music_file
+            # if debug == True:
+                # print(music_url, " -----> ", music_path)
+            if os.path.exists(music_path):
                 if debug:
-                    logging.info('Downloading music_url %s', music_url)
-                    logging.info('as a file %s', music_file)
-                    logging.info('in the location %s', music_folder)
-                    logging.info('\n')
+                    logging.info('already downloaded %s in %s', music_file, music_folder)
+            elif not skip_download:
+                try:
+                    music_request=urllib2.Request(music_url, None, headers)
+                    with urllib2.urlopen(music_request) as response, open(music_path, 'wb') as out_file:
+                        shutil.copyfileobj(response, out_file)
+                    if 1:
+                        logging.info('successfully downloaded file %s to %s', os.path.basename(out_file.name), music_folder)
+                except:
+                    logging.error('Failed to download url %s', music_url)
+                    pass
+            if os.path.exists(music_path):
+                set_id3(music_path)
 
-                music_path = music_folder + '/' + music_file
-                # if debug == True:
-                    # print(music_url, " -----> ", music_path)
-                if os.path.exists(music_path):
-                    if debug:
-                        logging.info('already downloaded %s in %s', music_file, music_folder)
-                elif not skip_download:
-                    try:
-                        music_request=urllib2.Request(music_url, None, headers)
-                        with urllib2.urlopen(music_request) as response, open(music_path, 'wb') as out_file:
-                            shutil.copyfileobj(response, out_file)
-                        if 1:
-                            logging.info('successfully downloaded file %s to %s', os.path.basename(out_file.name), music_folder)
-                    except:
-                        logging.error('Failed to download url %s', music_url)
-                        pass
-                if os.path.exists(music_path):
-                    set_id3(music_path)
+# import multiprocessing
+# from queue import Queue
+# from threading import Thread
 
-import multiprocessing
-from queue import Queue
-from threading import Thread
+# class DownloadWorker(Thread):
 
-class DownloadWorker(Thread):
+#     def __init__(self, queue):
+#         Thread.__init__(self)
+#         self.queue = queue
 
-    def __init__(self, queue):
-        Thread.__init__(self)
-        self.queue = queue
-
-    def run(self):
-        while True:
-            # Get the work from the queue and expand the tuple
-            dictionary = self.queue.get()
-            try:
-                for d in dictionary:
-                    getFromMassTamilan(d, dictionary[d])
-            finally:
-                self.queue.task_done()
+#     def run(self):
+#         while True:
+#             # Get the work from the queue and expand the tuple
+#             dictionary = self.queue.get()
+#             try:
+#                 for d in dictionary:
+#                     getFromMassTamilan(d, dictionary[d])
+#             finally:
+#                 self.queue.task_done()
 
 
 def urlParse(link, key, value, regex=''):
@@ -384,40 +394,87 @@ def urlParse(link, key, value, regex=''):
                     download_links.append(download_link)
     return download_links
 # Mind the "if" instruction!
+
+
+def multiThreaded(dictionary):
+    results = []
+
+    for d in dictionary:
+        # results = dictionary[d]
+        getFromMassTamilan(d, dictionary[d])
+    # pool = mp.Pool(mp.cpu_count())
+    # results = pool.map(getFromMassTamilanMP, [f for f in results])
+    # pool.close()
+    return results
+
 def downloadTamilSongs():
-    queue = Queue()
-    for i in range(16): #multiprocessing.cpu_count()):
-        worker = DownloadWorker(queue)
-        worker.daemon = True
-        worker.start()
+    # queue = Queue()
+    # for i in range(16): #multiprocessing.cpu_count()):
+        # worker = DownloadWorker(queue)
+        # worker.daemon = True
+        # worker.start()
     
     download_years = urlParse("https://masstamilan.in/browse-tamil-all-songs/", 'href', 'https', r'\b[12]{1}[0-9]{3}\b')
     download_years = [
-        "https://masstamilan.in/1979-tamil-songs-download/", 
-        # "https://masstamilan.in/2018-tamil-songs-download/", 
-        # "https://masstamilan.in/2017-tamil-songs-download/", 
-        # "https://masstamilan.in/2016-tamil-songs-download/", 
-        # "https://masstamilan.in/2015-tamil-songs-download/", 
-        # "https://masstamilan.in/2014-tamil-songs-download/", 
-        # "https://masstamilan.in/2021-tamil-songs-download/",
-        "https://masstamilan.in/1933-tamil-songs-download/"]
+    #     "https://masstamilan.in/1979-tamil-songs-download/", 
+    #     "https://masstamilan.in/2018-tamil-songs-download/", 
+    #     "https://masstamilan.in/2017-tamil-songs-download/", 
+    #     "https://masstamilan.in/2016-tamil-songs-download/", 
+    #     "https://masstamilan.in/2015-tamil-songs-download/", 
+    #     "https://masstamilan.in/2014-tamil-songs-download/", 
+        "https://masstamilan.in/2021-tamil-songs-download/"]
+    dictionary = {}
     for download_year in download_years:
         year = re.search(r'\b[12]{1}[0-9]{3}\b', download_year).group()
         download_links = urlParse(download_year, 'href', 'https')
         
-        dictionary = {}
         for d in download_links:
             if year not in dictionary.keys():
                 dictionary[year] = []
             dictionary[year].append(d)
-            
-        queue.put(dictionary)
-        # for key, value in download:
-            # print (key, value)
-    queue.join() # starting workers
+    # print (dictionary)    
+    multiThreaded(dictionary)
+
+        # queue.put(dictionary)
+        # # for key, value in download:
+        #     # print (key, value)
+        # queue.join() # starting workers
 
 downloadTamilSongs()
+
+
+
+
+# if __name__ == '__main__':
+#     download_years = urlParse("https://masstamilan.in/browse-tamil-all-songs/", 'href', 'https', r'\b[12]{1}[0-9]{3}\b')
+#     download_years = [
+#     #     "https://masstamilan.in/1979-tamil-songs-download/", 
+#     #     "https://masstamilan.in/2018-tamil-songs-download/", 
+#     #     "https://masstamilan.in/2017-tamil-songs-download/", 
+#     #     "https://masstamilan.in/2016-tamil-songs-download/", 
+#     #     "https://masstamilan.in/2015-tamil-songs-download/", 
+#     #     "https://masstamilan.in/2014-tamil-songs-download/",
+#         "https://masstamilan.in/2021-tamil-songs-download/"]
+#     download_links = []
+#     for download_year in download_years:
+#         year = re.search(r'\b[12]{1}[0-9]{3}\b', download_year).group()
+#         download_links.append(urlParse(download_year, 'href', 'https'))
+#     print ()
+#     multiThreaded(download_links)
+        
 
 # import cProfile
 
 # cProfile.run('downloadTamilSongs()')
+
+
+
+# if __name__ == "__main__":
+#     if sys.argv[1:]:
+#         path_to_check = "".join(sys.argv[1:])
+#         # list_files(path_to_check)
+#         exit(1)
+
+#     else:
+#         downloadTamilSongs()
+#         # print("Please pass the paths to check as parameters to the script")

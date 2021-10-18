@@ -60,9 +60,10 @@ if __name__ == "__main__":
     if sys.argv[1:]:
         path_to_check = "".join(sys.argv[1:])
         list_files(path_to_check)
+
     else:
-        for i in range(1940, 2020):
-            path_to_check = '123Music\\' + str(i)
+        for i in range(1940, 2021):
+            path_to_check = "D:\\Music\\Tamil\\" + str(i)
             print (path_to_check)
             list_files(path_to_check)
         # print("Please pass the paths to check as parameters to the script")

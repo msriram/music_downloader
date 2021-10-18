@@ -1,8 +1,7 @@
 import re
 import os
 import urlParser
-
-def getAlbumArt(album_link, filename):
+def getAlbumLink(album_link, filename):
     img_dl = urlParser.parse(album_link, values = ['jpg', 'png', 'jpeg'])
     if len(img_dl) == 0:
         print ("Invalid album link")
@@ -12,19 +11,24 @@ def getAlbumArt(album_link, filename):
     img_link  = urlParser.parse(image_link, values = ['jpg', 'png', 'jpeg'])
 
     album_art_path = os.path.dirname(filename)
-    album_art_name = os.path.basename(os.path.dirname(filename)).replace(' ','_') + os.path.splitext(img_link[0])[1]
-    album_art_file = os.path.join(album_art_path, album_art_name)
-    album_art_url = re.sub(r'^\/\/', 'https://', img_link[0])         
+    # album_art_name = os.path.basename(os.path.dirname(filename)).replace(' ','_') + os.path.splitext(img_link[0])[1]
+    image_file = os.path.join(album_art_path, album_art_name)
+    image_url = re.sub(r'^\/\/', 'https://', img_link[0])         
     # print ("ALBUM ART LINK: ", album_art_url)
     # print ("ALBUM ART PATH: ", album_art_path)
     # print ("ALBUM ART NAME:", album_art_name)
-    # print ("ALBUM ART FILE:", album_art_file)
+    # print ("ALBUM ART FILE:", image_file)
+
+    return getAlbumArt(image_url, image_file)
+
+def getAlbumArt(image_url, image_file):
+    
 
     # download album art file
-    if not os.path.exists(album_art_file):
+    if not os.path.exists(image_file):
 
-        with open(album_art_file, 'wb') as handle:
-            img_resp = requests.get(album_art_url, stream=True)
+        with open(image_file, 'wb') as handle:
+            img_resp = requests.get(image_url, stream=True)
 
             if not img_resp.ok:
                 print (img_resp)
@@ -35,5 +39,5 @@ def getAlbumArt(album_link, filename):
 
                 handle.write(block)
 
-    return album_art_file, album_art_name
+    return image_file
     

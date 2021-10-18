@@ -2,545 +2,1732 @@ ERROR:root:Sample Error Log
 WARNING:root:Sample Warning Log
 DEBUG:root:Sample Debug Log
 INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
+DEBUG:eyed3:eyeD3 version 0.9.6
 ERROR:root:Sample Error Log
 WARNING:root:Sample Warning Log
 DEBUG:root:Sample Debug Log
 INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:failed to save tag for 123Music/2002/Album/ChellameChellam.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/KadhalVanile.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/Muttaikkul.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/NilaveNilave.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/PillaiThamarai.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/Thalampoo.mp3
-ERROR:root:failed to save tag for 123Music/2002/Album/Thathalikuthe.mp3
-ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/AmmamaNallaPullai.mp3
-ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/MalayeMalaye.mp3
-ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/PattaPodamaVachukirada.mp3
-ERROR:root:failed to save tag for 123Music/2011/AaraanKaaval/PookalPesumPaasai.mp3
-ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/NamKanavugalNanavaiMaarum.mp3
-ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/NilaaNilaaOdiVaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/Niyaangelu.mp3
-ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/ElaiudhirKaalam.mp3
-ERROR:root:failed to save tag for 123Music/2011/Aasaippadugiren/SillendruKaathu.mp3
-ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/Kadhalai.mp3
-ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/Kanavae.mp3
-ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/OdivaaKadhale.mp3
-ERROR:root:failed to save tag for 123Music/2006/AzhagaiIrukkiraiBayamaiIrukkirathu/OrampoNaina.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/EnnakenaOruthi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/HeySivagami.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/KaatrinaiPolingu.mp3
-ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EnJannal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/Manasoram.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/UnnmayaiNaan.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ayyan/ViduthalaikuyilNaan.mp3
-ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EnnaNenatche.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/AayirathilOruvan.mp3
-ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/AdiyeIvale.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/HalloMr.Ethirkkatchi.mp3
-ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/EttuJilla.mp3
-ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/KuthikkiraKuthikkira.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/KannaiKattikollaadhe.mp3
-ERROR:root:failed to save tag for 123Music/2011/AzhagarsamiyinKudhirai/Poovakkelu.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/Narumugaiye.mp3
-ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/OoruOoraPogira.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/PooKodiyin.mp3
-ERROR:root:failed to save tag for 123Music/2011/Bhavani/AadupuliAattamdhan.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/UdalMannukku.mp3
-ERROR:root:failed to save tag for 123Music/2003/ChokkaThangam/VellayaiManam.mp3
-ERROR:root:failed to save tag for 123Music/2011/Bhavani/KarpuraKannalagi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Bhavani/KaruppusamyKakkisatta.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/UnnoduNaan.mp3
-ERROR:root:failed to save tag for 123Music/2011/Bhavani/MalaiSaaindhal.mp3
-ERROR:root:failed to save tag for 123Music/1997/Iruvar/Vennilaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Bhavani/MullaiMalarMele.mp3
-ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/BodiGanesan.mp3
-ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/KolamPotta.mp3
-ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/MurattuMachan.mp3
-ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/PootiKidanthaManasu.mp3
-ERROR:root:failed to save tag for 123Music/2011/BodinayakanurGanesan/VanjiraMeen.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/Doodaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/KaiyaThodaVenaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/NadhiyileFullyLoaded.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/Nadhiyile.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/OruNaalVidumurai.mp3
-ERROR:root:failed to save tag for 123Music/2011/Doo/VaaVaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/EnthanKillambindanya.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/KaalayileKanVilichu.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/KadanaiKoduthaNanba.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/Kannadhasan.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/Mazhaiyuthirkaalam.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/Simparapara.mp3
-ERROR:root:failed to save tag for 123Music/2011/Eththan/SivappuThamaraiye.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/AhMudhalAkku.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/Coimbatore.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/EnnaiThedi.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/Kadhaliye.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/NaanThaanKadavulada.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/ThalattuSongs.mp3
-ERROR:root:failed to save tag for 123Music/2005/Jithan/ThemeMusic.mp3
-ERROR:root:failed to save tag for 123Music/2011/Kaantham/Hello.mp3
-ERROR:root:failed to save tag for 123Music/2011/Kaantham/NeeVanthal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Kaantham/Tamizhanban.mp3
-ERROR:root:failed to save tag for 123Music/2011/Kaantham/UnAzhagil.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/AlliMudicha.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/AngeYaruParu.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/Oorokoru.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileyHariharan.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileyIlayaraaja.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/VaanavileySadhanaSargam.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/VanamAdhirave.mp3
-ERROR:root:failed to save tag for 123Music/2002/Ramana/Venilavin.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/AdaSorueduthu.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/BoomiThaduthalum.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/IndhaBoomi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/Mansurukiathe.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/PriyamaePriyame.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/UllaeOru.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/UnnaiVirumbi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Karungali/VaadaSoorapuli.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/Iyierandu.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/KambanukkuKaikoduthu.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/DevathayaiKanden.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ManasuRendum.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/NenjoduKalinthidu.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThathiThathiThaavuthey.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThottuThottu.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/Mannukullae.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/18Vayathil.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/KadhalKonden.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/NatpinilaeNatpinilae.mp3
-ERROR:root:failed to save tag for 123Music/2020/Biskoth/BabySong.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/UnnaiThozhiEnbatha.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic1.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic2.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NallaManushanuku.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic3.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic4.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic5.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic6.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic7.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic8.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NandriSollaUnakuII.mp3
-ERROR:root:failed to save tag for 123Music/2003/KadhalKonden/ThemeMusic9.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/NandriSollaUnaku.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/OorAludha.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/PangajameRangamaniye.mp3
-ERROR:root:failed to save tag for 123Music/1998/MaruMalarchi/RettakiliRettakili.mp3
-ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/Acham.mp3
-ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/AdugiraMaatai.mp3
-ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/KadhalEnbadhai.mp3
-ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/KulanariKootam.mp3
-ERROR:root:failed to save tag for 123Music/2011/KullanariKoottam/Vizhigalile.mp3
-ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/AzhaganaPonnu.mp3
-ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/Kadhaliyae.mp3
-ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/KichuKichu.mp3
-ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/MambazhamVikkkura.mp3
-ERROR:root:failed to save tag for 123Music/2006/NenjirukkumVarai/OrumuraiPiranthen.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maharaja/AreDhammare.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maharaja/HelloNanbaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maharaja/MexiMexicanLady.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maharaja/MyNameIsRajuBaby.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maharaja/RaajaRaajaMahaaraaja.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maithanam/KadhalOru.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maithanam/KanavaNesama.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maithanam/KandomKandom.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maithanam/LoveTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/Maithanam/MaithaanamMaithaanam.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/KadhalVeenila.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/KadhalVennila.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/MainaveMainave.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/NadhiyeAdiNayil.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/RojaPooMalaiyilae.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/ThavaniyeEnnai.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/VaanilVennila.mp3
-ERROR:root:failed to save tag for 123Music/2000/VaanathaiPola/YengalVeetil.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/SoakkuSundari.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/Singakutti.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/NenchaThiranthu.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/NaanVanavillaye.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/Machamirukira.mp3
-ERROR:root:failed to save tag for 123Music/1997/Moovendar/KumudhamPolVantha.mp3
-ERROR:root:failed to save tag for 123Music/2006/Rendu/KuraiOnrumillai.mp3
-ERROR:root:failed to save tag for 123Music/2006/Rendu/MobilaMobila.mp3
-ERROR:root:failed to save tag for 123Music/2006/Rendu/NeeEnThozhiya.mp3
-ERROR:root:failed to save tag for 123Music/2006/Rendu/VartaVartaVarta.mp3
-ERROR:root:failed to save tag for 123Music/2006/Rendu/YaroYevalo.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/01JollyaJollya.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/02KadhalDesaYuvarani.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/03Mayangathe.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/04PongumKanalai.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/05Surre.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/06EmanaKolluthu.mp3
-ERROR:root:failed to save tag for 123Music/2011/OmSakthi/07MahisasuraMarthini.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/Adithkali.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/AgaraMuthala.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/KanakuilEllam.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/PadiThodi.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/UnRojaIthalil.mp3
-ERROR:root:failed to save tag for 123Music/2011/OruSol/UnnaiSaranadithan.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/AzhakanaRatsasiye.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/KurukkuSiruthavale.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/Mudhalvane.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/ShakkalakkaBaby.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/UlundhuVithaikayile.mp3
-ERROR:root:failed to save tag for 123Music/1999/Mudhalvan/Uppukarauvadu.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/BharathirajaVoiceI.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/BharathirajaVoiceII.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/MusicBit.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/MusicBitII.mp3
-ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/AmmaEnAmma.mp3
-ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/AmmaEnbathu.mp3
-ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/BoomBoom.mp3
-ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/RekkaiKatti.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/OruNaal.mp3
-ERROR:root:failed to save tag for 123Music/2011/PasakaraNanbargal/RekkaiKatti2.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/PullaiThinkum.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/AasaPattaEllathayum.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/FeelOfKosuKadi.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/JulyMaadhathil.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/KadiKadi.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/Sakiyaa.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/ThaThaNamitha.mp3
-ERROR:root:failed to save tag for 123Music/2007/Viyabari/VetriyaiKandavan.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/SakiyaaII.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/ThemeMusic.mp3
-ERROR:root:failed to save tag for 123Music/1996/Anthimanthaarai/ThemeMusicII.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/EnManathai.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/KissMe.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/AndiOoru.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/Enatho.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/IthuVaraiParthailai.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/LayollaCollege.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/KathalPuyalOndru.mp3
-ERROR:root:failed to save tag for 123Music/2011/Ramanathapuram/OBabyOBaby.mp3
-ERROR:root:failed to add tag for 123Music/2009/Mathan/NaanKannitheevu.mp3, invalid load
-ERROR:root:failed to save tag for 123Music/2011/Rowthiram/AdiyeUnKangal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Golimaare.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/Nellagiri.mp3
-ERROR:root:failed to save tag for 123Music/2011/Rowthiram/MaalaiMangumNeram.mp3
-ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Senganthal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Rowthiram/Theme.mp3
-ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/MudhalMozhi.mp3
-ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/NenjathinJinJin.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/SuperHit.mp3
-ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/OduMamey.mp3
-ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/UllamThudikudha.mp3
-ERROR:root:failed to save tag for 123Music/2011/SabashSariyanaPotti/Vandhutanya.mp3
-ERROR:root:failed to save tag for 123Music/1996/KallooriVaasal/Vanakkiliye.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/ClashOfTheTitansTheWarCry.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/EngaYeriyaOurStory.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/GoingThruEmotionsPrelude.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Adiyae.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/NeruppuVaayinilPeekIntoAssasinsLife.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Emmaiyaalum.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/Kaadai.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/NammaNadai.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/OruNaalilItAllComesDownToThis.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/OmSivaSiva.mp3
-ERROR:root:failed to save tag for 123Music/2008/Thiruvannamalai/SollaSolla.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/OruNaalilComposersDreamMix.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/PulpesumPooPesumGangstersMarriageParty.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/SellingDopeTheBeginning.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/PudhupettaiMainThemeSurvivalOfTheFittest.mp3
-ERROR:root:failed to save tag for 123Music/2005/Pudhupettai/VarriyaaNightLife.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/Enadhu.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/Munpani.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/OruNaalMattum.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/SaravanaSamayal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/Valliamma.mp3
-ERROR:root:failed to save tag for 123Music/2011/Seedan/Yadumaghiye.mp3
-ERROR:root:failed to save tag for 123Music/2011/Soolnilai/ElanthariElanthari.mp3
-ERROR:root:failed to save tag for 123Music/2011/Soolnilai/KanneNeeSolladi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Soolnilai/KooduvittuKooduppayum.mp3
-ERROR:root:failed to save tag for 123Music/2011/Soolnilai/OtraiViralal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Soolnilai/Uyire.Uyire.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/ColourColoura.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/IsaiTharum.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/IsaiTharum2.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/KaanchaMaadu.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/MinnalaiPaarkum.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/SodakkuPodaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/SuttumVizhiSudare/VennilaSolayil.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/AadumAlaiMelae.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/EmotionalUnleashedViolin.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/FragranceOfLove.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/Mercuryin.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/SollavanthaenF.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/SollavanthaenM.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/Sollavanthaen.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/SuzhalThemeMusic.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/VaaNanbaaVaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/Suzhal/YaarYaaro.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/DevathayeVaavaa.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/KanthaKadamba.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/OhBaby.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/UyireUyire.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/UyireUyireII.mp3
-ERROR:root:failed to save tag for 123Music/2007/Malaikottai/YehAatha.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/AndhaVaanam.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/Athipalam.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/PongaloPongal.mp3
-ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/EngeyoPartha.mp3
-ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/NenjaiKasaki.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThamizhDesam/Yennavendru.mp3
-ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/OhBabyOhBaby.mp3
-ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/OruNaalaikkul.mp3
-ERROR:root:failed to add tag for 123Music/2007/Lee/RockNRoll.mp3, invalid load
-ERROR:root:failed to save tag for 123Music/2008/YaaradiNeeMohini/PalakkattuPakkathile.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/AdiyePottePulla.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/CellerToneSongsCodes.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/Devathaiyah.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/EnathuNenjile.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/EngeEnge.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/Idhazhil.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/Kathalane.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/Muthamizhe.mp3
-ERROR:root:failed to save tag for 123Music/2011/Naanga/RomanceRowdinga.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/AnbeAnbe.mp3
-ERROR:root:failed to save tag for 123Music/1994/Pavithra/AzhaguNilave.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/ColumbusColumbu.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/EnnakeEnnaka.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/KannoduKaanberallam.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/Poovukkul.mp3
-ERROR:root:failed to save tag for 123Music/1998/Jeans/VarayaThozhi.mp3
-ERROR:root:failed to save tag for 123Music/1994/Pavithra/Eachchampalam.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/EppoNee.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/GutkhaLakkadi.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/KaalaKaala.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/KuttiPisase.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/VandhuttaandaKaalai.mp3
-ERROR:root:failed to save tag for 123Music/2007/Kaalai/Veeramulla.mp3
-ERROR:root:failed to save tag for 123Music/1994/Pavithra/MottuVitadha.mp3
-ERROR:root:failed to save tag for 123Music/2011/Narthaki/ChinnanchiruIdhayathil.mp3
-ERROR:root:failed to save tag for 123Music/2011/Narthaki/PoovinManamPoovilEllai.mp3
-ERROR:root:failed to save tag for 123Music/2011/Narthaki/PooyevaaMangalaPooyevaa.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/JillEndruOruKaadhal.mp3
-ERROR:root:failed to save tag for 123Music/1994/Pavithra/SevaanamChinna.mp3
-ERROR:root:failed to save tag for 123Music/2011/Narthaki/TheDestiny.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/KummiAdiKummi.mp3
-ERROR:root:failed to save tag for 123Music/2011/Narthaki/VaanMazhaiyinThuligal.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MaajaMaajaMaja.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MaarichamYatho.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MachakariMachakari.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/MunbeVaaEnVaa.mp3
-ERROR:root:failed to save tag for 123Music/2007/JillunuorSillunuOruKaadhal/NewYorkNagaram.mp3
-ERROR:root:failed to save tag for 123Music/2011/Oodhari/KallaThonikaara.mp3
-ERROR:root:failed to save tag for 123Music/2011/Oodhari/KurukuSavalathaiya.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/AdiYaarathu.mp3
-ERROR:root:failed to save tag for 123Music/2011/Oodhari/OruVarthai.mp3
-ERROR:root:failed to save tag for 123Music/2011/Oodhari/UyirSollumKadhal.mp3
-ERROR:root:failed to save tag for 123Music/2011/Oodhari/ValaivilValaivil.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/AnbullaMannavane.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/InthaPonthendral.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/ManaMadurai.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/SaravanaBava.mp3
-ERROR:root:failed to save tag for 123Music/1996/Mettukudi/VelvattaVelvatta.mp3
-ERROR:root:failed to save tag for 123Music/2008/KannumKannum/AnbeyAnbey.mp3
-ERROR:root:failed to save tag for 123Music/2008/KannumKannum/EnnaiyumUnnaiyum.mp3
-ERROR:root:failed to save tag for 123Music/2008/KannumKannum/EnnannuPuriyalaiye.mp3
-ERROR:root:failed to save tag for 123Music/2008/KannumKannum/KurtaalamKurtaalam.mp3
-ERROR:root:failed to save tag for 123Music/2008/KannumKannum/PathinettuVayasu.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/JalakkuJalakku.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/Enadhuyirae.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/MudhalMazhai.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/KangalaMinnala.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/OruMugamo.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/RagasiyaKanavugal.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/NadodiNanbha.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/RanguRangamma.mp3
-ERROR:root:failed to save tag for 123Music/2007/Bheema/SiruPaarvayalae.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/OhThendrale.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/TakeItEasy.mp3
-ERROR:root:failed to save tag for 123Music/1999/EndrendrumKadhal/UlagellamKadhal.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/AreYouCrazy.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/DaddyMummy.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/DheemthanakkaThillana.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/HeyRamaRamaRama.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/AzeemOShaanShahenshah.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/JalsaJalsa.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/JalsaJalsaTheDSPMix.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/IthayamIdamMariyathaeVizhi.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/NeeKobapattalNaanum.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/KhwajaMereKhwaja.mp3
-ERROR:root:failed to save tag for 123Music/2009/Villu/VaadaMapilley.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/KhwajaMereKhwajaII.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MannMohana.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MulumaathyAvalathuMugaamII.mp3
-ERROR:root:failed to save tag for 123Music/2008/JodhaaAkbar/MulumathyAvalathuMugaam.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/AdaimazhaiKalam.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/AdhaiKoodavaa.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/AasapattaEllathayumThedi.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/NaanVaraindhuVaitha.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/MunnalaNeePonaNamPinnale.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/OveevuvarthePesuUnnevazhthuven.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/OreOrNaal.mp3
-ERROR:root:failed to save tag for 123Music/2011/ThenkasiPakkathula/VariyaVariyaVeluthukeetta.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/SutrivarumBoomi.mp3
-ERROR:root:failed to save tag for 123Music/2008/JayamKondaan/UllaasaUlagam.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/AasaMachan.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/NaanOndruNinai.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/PaperaPathiya.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/Santhosam.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/SonnanAntha.mp3
-ERROR:root:failed to save tag for 123Music/1994/VaravuEttanaSelavuPathana/YerathuSarukku.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/EvanIvan.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/IthanaiYugamai.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/LakaLaka.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/PongaVechom.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/RingTing.mp3
-ERROR:root:failed to save tag for 123Music/2011/Udhayan/Udhayan.mp3
-ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AalaPaaruAala.mp3
-ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AanaPoranthavan.mp3
-ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/AthaPonnu.mp3
-ERROR:root:failed to save tag for 123Music/2016/IvanYarendruTherikiratha/Ponnala.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/EppadioMattikiten.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/MGRIllenga.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruAdangapidari.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruKal.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruKalII.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/OruPaarvaiyil.mp3
-ERROR:root:failed to save tag for 123Music/2009/SivaManasulaSakthi/ThithikumTheeai.mp3
-ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/Saayaali.mp3
-ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/PachaiDhrogangal.mp3
-ERROR:root:failed to save tag for 123Music/2018/AdangaMaru/KaarIrul.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/ATaleDarkTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/AararoAariro.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/BoxPandoraTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/ChaosOrderTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/HopeTheLastResortTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/KabhiJind.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/KannitheevuPonna.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/LifeGoesonTheme.mp3
-ERROR:root:failed to save tag for 123Music/2011/YuththamSei/VedhamPudhumaiSei.mp3
-ERROR:root:failed to save tag for 123Music/1993/NaanPesaNinaipathellam/PookuilRaagameaF.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/ChinnaThayaval.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/Kaattukuyilu.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/Margazhithan.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/PuthamPuthuPoo.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/RakkamaKaiyaThattu.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/SundariKannal.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/YamunaiAatrile.mp3
-ERROR:root:failed to save tag for 123Music/1991/Thalapathi/YamunaiAatrile2.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/EnnaVenumSollungada.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/EnnaVenumSollungada.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/KaalaiThendralPaadiVarum.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/OttaSattiyaVachikittu.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/VanthalMahalkshmiye.mp3
-ERROR:root:failed to save tag for 123Music/1985/UyarndhaUllam/VanthalMahalkshmiye.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/IKMSTheme.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/Ilanthamizha.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/KannaNeeEnnai.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/NenjamNenjam.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/RajaSingam.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/VellaikariNee.mp3
-ERROR:root:failed to save tag for 123Music/2009/IrumbuKottaiMurattuSingam/WarTheme.mp3
-ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/ValliValli.mp3
-ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/OruPaatale.mp3
-ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/OorellamSamiyaga.mp3
-ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/Kutthuthadi.mp3
-ERROR:root:failed to save tag for 123Music/1992/DeivaVaaku/InthaAmmanukku.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/PotriPaadadiPenne.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/InjiIdupazhaga.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/AdaPuthiyathuPiranthadhu.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/MasaruPonnaeVaruga.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/ManamagaleManamagale.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/InjiIdupazhaga.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/VaanamThottuPona.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/SandhuPottu.mp3
-ERROR:root:failed to save tag for 123Music/1993/DevarMagan/PotriPaadadiPenneBit.mp3
-ERROR:root:failed to add tag for 123Music/1972/Agathiyar/AandavanDharisaname.mp3, invalid load
-ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/ThangaChangili.mp3
-ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/ThalattaNaan.mp3
-ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/YerikaraiPoongatre.mp3
-ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/BhoopalamIsaikkum.mp3
-ERROR:root:failed to save tag for 123Music/1982/ThooralNinnuPochu/PankajaValli.mp3
+DEBUG:eyed3:eyeD3 version 0.9.6
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.6
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.6
+INFO:root:Downloading music_url https://massdownload.net/1933/Kovalan/Kannaki%20Therukoothu-Masstamilan.in.mp3
+INFO:root:as a file Kannaki%20Therukoothu-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Kovalan
+INFO:root:
+
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Eeswaran/Thamizhan%20Pattu-Masstamilan.In.mp3
+INFO:root:as a file Thamizhan%20Pattu-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Eeswaran
+INFO:root:
+
+INFO:root:successfully downloaded file Kannaki%20Therukoothu-Masstamilan.in.mp3 to 123Music/1933/Kovalan
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ambikaye-Masstamilan.in.mp3
+INFO:root:as a file Ambikaye-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:successfully downloaded file Thamizhan%20Pattu-Masstamilan.In.mp3 to 123Music/2021/Eeswaran
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Eeswaran/Eeswaran%20Title%20Song-Masstamilan.in.mp3
+INFO:root:as a file Eeswaran%20Title%20Song-Masstamilan.in.mp3
+INFO:root:in the location 123Music/2021/Eeswaran
+INFO:root:
+
+INFO:root:successfully downloaded file Ambikaye-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ammaa-Masstamilan.in.mp3
+INFO:root:as a file Ammaa-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:successfully downloaded file Eeswaran%20Title%20Song-Masstamilan.in.mp3 to 123Music/2021/Eeswaran
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Eeswaran/Mangalyam-Masstamilan.in.mp3
+INFO:root:as a file Mangalyam-Masstamilan.in.mp3
+INFO:root:in the location 123Music/2021/Eeswaran
+INFO:root:
+
+INFO:root:successfully downloaded file Mangalyam-Masstamilan.in.mp3 to 123Music/2021/Eeswaran
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Eeswaran/Velli%20Nilavae-Masstamilan.In.mp3
+INFO:root:as a file Velli%20Nilavae-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Eeswaran
+INFO:root:
+
+INFO:root:successfully downloaded file Ammaa-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Eedhuko-Masstamilan.in.mp3
+INFO:root:as a file Eedhuko-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:successfully downloaded file Velli%20Nilavae-Masstamilan.In.mp3 to 123Music/2021/Eeswaran
+INFO:root:successfully downloaded file Eedhuko-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Kankonil%20Njaanetho-Masstamilan.in.mp3
+INFO:root:as a file Kankonil%20Njaanetho-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:Downloading music_url https://masstamilan2019download.com/tamil/2020%20Tamil%20Songs/MGR%20Magan/Kelappu%20Kelappu%20-%20Masstamilan.In.mp3
+INFO:root:as a file Kelappu%20Kelappu%20-%20Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/MGR%20Magan
+INFO:root:
+
+INFO:root:successfully downloaded file Kankonil%20Njaanetho-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Njaan%20Vanakum-Masstamilan.in.mp3
+INFO:root:as a file Njaan%20Vanakum-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:successfully downloaded file Kelappu%20Kelappu%20-%20Masstamilan.In.mp3 to 123Music/2021/MGR%20Magan
+INFO:root:successfully downloaded file Njaan%20Vanakum-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Panchamelladi-Masstamilan.in.mp3
+INFO:root:as a file Panchamelladi-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:
+
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Chakra/Harla%20Farla-Masstamilan.In.mp3
+INFO:root:as a file Harla%20Farla-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Chakra
+INFO:root:
+
+INFO:root:successfully downloaded file Panchamelladi-Masstamilan.in.mp3 to 123Music/1933/Sathyavaan%20Savithiri
+INFO:root:successfully downloaded file Harla%20Farla-Masstamilan.In.mp3 to 123Music/2021/Chakra
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Chakra/Scream%20of%20Darkness%20Theme-.mp3
+INFO:root:as a file Scream%20of%20Darkness%20Theme-.mp3
+INFO:root:in the location 123Music/2021/Chakra
+INFO:root:
+
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Karthikeya%20lavanya-Masstamilan.in.mp3
+INFO:root:as a file Karthikeya%20lavanya-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Valli%20Thirumanam
+INFO:root:
+
+INFO:root:successfully downloaded file Scream%20of%20Darkness%20Theme-.mp3 to 123Music/2021/Chakra
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Chakra/Amma%20Song-Masstamilan.in.mp3
+INFO:root:as a file Amma%20Song-Masstamilan.in.mp3
+INFO:root:in the location 123Music/2021/Chakra
+INFO:root:
+
+INFO:root:successfully downloaded file Karthikeya%20lavanya-Masstamilan.in.mp3 to 123Music/1933/Valli%20Thirumanam
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Oru%20Thaai%20Vayirtil-Masstamilan.in.mp3
+INFO:root:as a file Oru%20Thaai%20Vayirtil-Masstamilan.in.mp3
+INFO:root:in the location 123Music/1933/Valli%20Thirumanam
+INFO:root:
+
+INFO:root:successfully downloaded file Amma%20Song-Masstamilan.in.mp3 to 123Music/2021/Chakra
+INFO:root:successfully downloaded file Oru%20Thaai%20Vayirtil-Masstamilan.in.mp3 to 123Music/1933/Valli%20Thirumanam
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Kandaa%20Vara%20Sollunga-Masstamilan.In.mp3
+INFO:root:as a file Kandaa%20Vara%20Sollunga-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Kandaa%20Vara%20Sollunga-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Pandarathi%20Puranam-Masstamilan.in.mp3
+INFO:root:as a file Pandarathi%20Puranam-Masstamilan.in.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Pandarathi%20Puranam-Masstamilan.in.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Thattaan%20Thattaan-Masstamilan.In.mp3
+INFO:root:as a file Thattaan%20Thattaan-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Thattaan%20Thattaan-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Uttradheenga%20Yeppov-Masstamilan.In.mp3
+INFO:root:as a file Uttradheenga%20Yeppov-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Uttradheenga%20Yeppov-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Karnan%20Purappadu%20%28Instrumental%29-Masstamilan.In.mp3
+INFO:root:as a file Karnan%20Purappadu%20%28Instrumental%29-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Karnan%20Purappadu%20%28Instrumental%29-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Karnan%20Kodai%20%28Instrumental%29-Masstamilan.In.mp3
+INFO:root:as a file Karnan%20Kodai%20%28Instrumental%29-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Karnan%20Kodai%20%28Instrumental%29-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Manjanathi%20Puranam-Masstamilan.In.mp3
+INFO:root:as a file Manjanathi%20Puranam-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Manjanathi%20Puranam-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://dslink.xyz/Masstamilan.In/Karnan/Karnan%20Theme-Masstamilan.In.mp3
+INFO:root:as a file Karnan%20Theme-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Karnan
+INFO:root:
+
+INFO:root:successfully downloaded file Karnan%20Theme-Masstamilan.In.mp3 to 123Music/2021/Karnan
+INFO:root:Downloading music_url https://masstamilan2019download.com/tamil/2020%20Tamil%20Songs/Master/Kutti%20Story-Masstamilan.In.mp3
+INFO:root:as a file Kutti%20Story-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Master
+INFO:root:
+
+INFO:root:successfully downloaded file Kutti%20Story-Masstamilan.In.mp3 to 123Music/2021/Master
+INFO:root:Downloading music_url https://masstamilan2019download.com/tamil/2020%20Tamil%20Songs/Master/Vaathi%20Coming-Masstamilan.In.mp3
+INFO:root:as a file Vaathi%20Coming-Masstamilan.In.mp3
+INFO:root:in the location 123Music/2021/Master
+INFO:root:
+
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.6
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.6
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Mambazhathu%20Vandu/I%20Love%20You-Masstamilan.In.mp3
+INFO:root:as a file ILoveYou.mp3
+INFO:root:in the location 123Music/1979/MambazhathuVandu
+INFO:root:
+
+INFO:root:Downloading music_url https://massdownload.net/1933/Kovalan/Kannaki%20Therukoothu-Masstamilan.in.mp3
+INFO:root:as a file KannakiTherukoothu.mp3
+INFO:root:in the location 123Music/1933/Kovalan
+INFO:root:
+
+INFO:root:successfully downloaded file KannakiTherukoothu.mp3 to 123Music/1933/Kovalan
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ambikaye-Masstamilan.in.mp3
+INFO:root:as a file Ambikaye.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:successfully downloaded file ILoveYou.mp3 to 123Music/1979/MambazhathuVandu
+INFO:root:successfully downloaded file Ambikaye.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ammaa-Masstamilan.in.mp3
+INFO:root:as a file Ammaa.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Mayandi/Oru%20Thangakili%20Tholil%20Vanthu-Masstamilan.In.mp3
+INFO:root:as a file OruThangakiliTholilVanthu.mp3
+INFO:root:in the location 123Music/1979/Mayandi
+INFO:root:
+
+INFO:root:successfully downloaded file Ammaa.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Eedhuko-Masstamilan.in.mp3
+INFO:root:as a file Eedhuko.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:successfully downloaded file OruThangakiliTholilVanthu.mp3 to 123Music/1979/Mayandi
+INFO:root:successfully downloaded file Eedhuko.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Kankonil%20Njaanetho-Masstamilan.in.mp3
+INFO:root:as a file KankonilNjaanetho.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Aalana%20Aalillaiyo-Masstamilan.In.mp3
+INFO:root:as a file AalanaAalillaiyo.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:successfully downloaded file KankonilNjaanetho.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Njaan%20Vanakum-Masstamilan.in.mp3
+INFO:root:as a file NjaanVanakum.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:successfully downloaded file NjaanVanakum.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Panchamelladi-Masstamilan.in.mp3
+INFO:root:as a file Panchamelladi.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:successfully downloaded file Panchamelladi.mp3 to 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Karthikeya%20lavanya-Masstamilan.in.mp3
+INFO:root:as a file Karthikeyalavanya.mp3
+INFO:root:in the location 123Music/1933/ValliThirumanam
+INFO:root:
+
+INFO:root:successfully downloaded file AalanaAalillaiyo.mp3 to 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/En%20Raagangal%20Indru-Masstamilan.In.mp3
+INFO:root:as a file EnRaagangalIndru.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:successfully downloaded file Karthikeyalavanya.mp3 to 123Music/1933/ValliThirumanam
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Oru%20Thaai%20Vayirtil-Masstamilan.in.mp3
+INFO:root:as a file OruThaaiVayirtil.mp3
+INFO:root:in the location 123Music/1933/ValliThirumanam
+INFO:root:
+
+INFO:root:successfully downloaded file OruThaaiVayirtil.mp3 to 123Music/1933/ValliThirumanam
+INFO:root:successfully downloaded file EnRaagangalIndru.mp3 to 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Kaamathchi%20Meenatchi-Masstamilan.In.mp3
+INFO:root:as a file KaamathchiMeenatchi.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:successfully downloaded file KaamathchiMeenatchi.mp3 to 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Manjal%20Nilavukku-Masstamilan.In.mp3
+INFO:root:as a file ManjalNilavukku.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:successfully downloaded file ManjalNilavukku.mp3 to 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Nangooram/Aalayan%20Nayagan-Masstamilan.In.mp3
+INFO:root:as a file AalayanNayagan.mp3
+INFO:root:in the location 123Music/1979/Nangooram
+INFO:root:
+
+INFO:root:successfully downloaded file AalayanNayagan.mp3 to 123Music/1979/Nangooram
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Needhikku%20Mun%20Neeya%20Naana/Asaiyulla%20Mappilaikku-Masstamilan.In.mp3
+INFO:root:as a file AsaiyullaMappilaikku.mp3
+INFO:root:in the location 123Music/1979/NeedhikkuMunNeeyaNaana
+INFO:root:
+
+INFO:root:successfully downloaded file AsaiyullaMappilaikku.mp3 to 123Music/1979/NeedhikkuMunNeeyaNaana
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Idhu%20Irava%20Pagala-Masstamilan.In.mp3
+INFO:root:as a file IdhuIravaPagala.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:successfully downloaded file IdhuIravaPagala.mp3 to 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Pesum%20Manimottu%20Rojakkal-Masstamilan.In.mp3
+INFO:root:as a file PesumManimottuRojakkal.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:successfully downloaded file PesumManimottuRojakkal.mp3 to 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Madham%20Oru%20Poo-Masstamilan.In.mp3
+INFO:root:as a file MadhamOruPoo.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:successfully downloaded file MadhamOruPoo.mp3 to 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Ore_Jeevan_Ondre_Ullam-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OreJeevanOndreUllam.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:successfully downloaded file OreJeevanOndreUllam.mp3 to 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Naan_Kattil_Mele_Kanden-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NaanKattilMeleKanden.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:successfully downloaded file NaanKattilMeleKanden.mp3 to 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Oru_Kodi_Inbangal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OruKodiInbangal.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:successfully downloaded file OruKodiInbangal.mp3 to 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Unnai_Ethanai_Murai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file UnnaiEthanaiMurai.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:successfully downloaded file UnnaiEthanaiMurai.mp3 to 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Aayiram_Malargalae-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AayiramMalargalae.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:successfully downloaded file AayiramMalargalae.mp3 to 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Iru_Paravaigal_Malai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IruParavaigalMalai.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:successfully downloaded file IruParavaigalMalai.mp3 to 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Mudhan_Mudhalaga_Kadhal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MudhanMudhalagaKadhal.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:successfully downloaded file MudhanMudhalagaKadhal.mp3 to 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ore%20Vaanam%20Ore%20Bhoomi/Malairani%20Munthanai%20Sariya%20Sariya-Masstamilan.In.mp3
+INFO:root:as a file MalairaniMunthanaiSariyaSariya.mp3
+INFO:root:in the location 123Music/1979/OreVaanamOreBhoomi
+INFO:root:
+
+INFO:root:successfully downloaded file MalairaniMunthanaiSariyaSariya.mp3 to 123Music/1979/OreVaanamOreBhoomi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ore%20Vaanam%20Ore%20Bhoomi/Valamana%20Bhoomiyil%20Sugamana%20Kalaigal%20Azhana%20Kaathal%20Athu-Masstamilan.In.mp3
+INFO:root:as a file ValamanaBhoomiyilSugamanaKalaigalAzhanaKaathalAthu.mp3
+INFO:root:in the location 123Music/1979/OreVaanamOreBhoomi
+INFO:root:
+
+INFO:root:successfully downloaded file ValamanaBhoomiyilSugamanaKalaigalAzhanaKaathalAthu.mp3 to 123Music/1979/OreVaanamOreBhoomi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Kalaiyo_Silaiyo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file KalaiyoSilaiyo.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:successfully downloaded file KalaiyoSilaiyo.mp3 to 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Theemtha_Theemtha-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file TheemthaTheemtha.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:successfully downloaded file TheemthaTheemtha.mp3 to 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Ponnaram_Poovaram-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file PonnaramPoovaram.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:successfully downloaded file PonnaramPoovaram.mp3 to 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Ilamai_Enum_Poongatru-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IlamaiEnumPoongatru.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:successfully downloaded file IlamaiEnumPoongatru.mp3 to 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Thottam_Konda_Rasave-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThottamKondaRasave.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:successfully downloaded file ThottamKondaRasave.mp3 to 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Orampo%20Orampo-Masstamilan.In.mp3
+INFO:root:as a file OrampoOrampo.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file OrampoOrampo.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Oru%20Manjakuruvi-Masstamilan.In.mp3
+INFO:root:as a file OruManjakuruvi.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file OruManjakuruvi.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Samakhozhi%20Yei%20Koovuthamma-Masstamilan.In.mp3
+INFO:root:as a file SamakhozhiYeiKoovuthamma.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file SamakhozhiYeiKoovuthamma.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Solai%20Kuyile%20Kaalai%20Kathire-Masstamilan.In.mp3
+INFO:root:as a file SolaiKuyileKaalaiKathire.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file SolaiKuyileKaalaiKathire.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Unakkenathane%20Innerama-Masstamilan.In.mp3
+INFO:root:as a file UnakkenathaneInnerama.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file UnakkenathaneInnerama.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Veetukoru%20Magana-Masstamilan.In.mp3
+INFO:root:as a file VeetukoruMagana.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:successfully downloaded file VeetukoruMagana.mp3 to 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Nyan_Nyan_Paadanum-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NyanNyanPaadanum.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:successfully downloaded file NyanNyanPaadanum.mp3 to 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Vaa_Ponmayile_Nenjam-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VaaPonmayileNenjam.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:successfully downloaded file VaaPonmayileNenjam.mp3 to 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Raja_Chinna_Raja-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file RajaChinnaRaja.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:successfully downloaded file RajaChinnaRaja.mp3 to 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Manathil_Yenna_Ninaivugalo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManathilYennaNinaivugalo.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:successfully downloaded file ManathilYennaNinaivugalo.mp3 to 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Idhayam-Poguthe-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IdhayamPoguthe.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:successfully downloaded file IdhayamPoguthe.mp3 to 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Thanthana-Thamthana-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThanthanaThamthana.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:successfully downloaded file ThanthanaThamthana.mp3 to 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Thiruvizha-Koothu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThiruvizhaKoothu.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:successfully downloaded file ThiruvizhaKoothu.mp3 to 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Vaan-Megangale-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VaanMegangale.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:successfully downloaded file VaanMegangale.mp3 to 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Vethala_Vethala-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VethalaVethala.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:successfully downloaded file VethalaVethala.mp3 to 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Maaman_Oru_Naal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MaamanOruNaal.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:successfully downloaded file MaamanOruNaal.mp3 to 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Uchi_Vaguntheduthu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file UchiVaguntheduthu.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:successfully downloaded file UchiVaguntheduthu.mp3 to 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Ennullil_Engo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file EnnullilEngo.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:successfully downloaded file EnnullilEngo.mp3 to 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sakkalathi/Enna%20Pattu%20Paada-Masstamilan.In.mp3
+INFO:root:as a file EnnaPattuPaada.mp3
+INFO:root:in the location 123Music/1979/Sakkalathi
+INFO:root:
+
+INFO:root:successfully downloaded file EnnaPattuPaada.mp3 to 123Music/1979/Sakkalathi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sakkalathi/Vaada%20Vaattuthu-Masstamilan.In.mp3
+INFO:root:as a file VaadaVaattuthu.mp3
+INFO:root:in the location 123Music/1979/Sakkalathi
+INFO:root:
+
+INFO:root:successfully downloaded file VaadaVaattuthu.mp3 to 123Music/1979/Sakkalathi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Brochevarevarura-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file Brochevarevarura.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file Brochevarevarura.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Dorakuna_Ituvanti-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file DorakunaItuvanti.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file DorakunaItuvanti.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Manasa_Sancharare-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManasaSancharare.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file ManasaSancharare.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Omkara_Nadhanu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OmkaraNadhanu.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file OmkaraNadhanu.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Raagam_Thanam_Pallavi-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file RaagamThanamPallavi.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file RaagamThanamPallavi.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Samaja_Varagamana-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file SamajaVaragamana.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:successfully downloaded file SamajaVaragamana.mp3 to 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Anbe_Chinthamani_Inba_Themangani-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AnbeChinthamaniInbaThemangani.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:successfully downloaded file AnbeChinthamaniInbaThemangani.mp3 to 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Azhagaana_Chinnakutti-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AzhagaanaChinnakutti.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:successfully downloaded file AzhagaanaChinnakutti.mp3 to 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Mani_Maaligai_Kanda_Maharaniye-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManiMaaligaiKandaMaharaniye.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:successfully downloaded file ManiMaaligaiKandaMaharaniye.mp3 to 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Mazhaikkala_Megam_Neerkondu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MazhaikkalaMegamNeerkondu.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:successfully downloaded file MazhaikkalaMegamNeerkondu.mp3 to 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Malar%20Kuduthen-Masstamilan.In.mp3
+INFO:root:as a file MalarKuduthen.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:successfully downloaded file MalarKuduthen.mp3 to 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Kadhal%20Rani-Masstamilan.In.mp3
+INFO:root:as a file KadhalRani.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:successfully downloaded file KadhalRani.mp3 to 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Yen%20Rajathi-Masstamilan.In.mp3
+INFO:root:as a file YenRajathi.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:successfully downloaded file YenRajathi.mp3 to 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Irandu%20Kaigal-Masstamilan.In.mp3
+INFO:root:as a file IranduKaigal.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:successfully downloaded file IranduKaigal.mp3 to 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Perumalin-Masstamilan.In.mp3
+INFO:root:as a file Perumalin.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:successfully downloaded file Perumalin.mp3 to 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Adraa%20Melatha%20Raja%20-%20Kovai%20Soundrarajan%2C%20LR.%20Eswari-Masstamilan.In.mp3
+INFO:root:as a file AdraaMelathaRajaKovaiSoundrarajanLR.Eswari.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:successfully downloaded file AdraaMelathaRajaKovaiSoundrarajanLR.Eswari.mp3 to 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Arul%20Jothi%20Deivam%20-%20M.%20Balamurali%20Krishna%2C%20Abhaya-Masstamilan.In.mp3
+INFO:root:as a file ArulJothiDeivamM.BalamuraliKrishnaAbhaya.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:successfully downloaded file ArulJothiDeivamM.BalamuraliKrishnaAbhaya.mp3 to 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Kizhakku%20Paravai%20Merkkil%20-%20TMS-Masstamilan.In.mp3
+INFO:root:as a file KizhakkuParavaiMerkkilTMS.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:successfully downloaded file KizhakkuParavaiMerkkilTMS.mp3 to 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Raja%20Vada%20Singa%20Kutti%20-%20Jeyachandran%2C%20S.Janaki-Masstamilan.In.mp3
+INFO:root:as a file RajaVadaSingaKuttiJeyachandranS.Janaki.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:successfully downloaded file RajaVadaSingaKuttiJeyachandranS.Janaki.mp3 to 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Ullam%20Urugaathaa%20Enthan%20-%20Vani%20Jayaram-Masstamilan.In.mp3
+INFO:root:as a file UllamUrugaathaaEnthanVaniJayaram.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:successfully downloaded file UllamUrugaathaaEnthanVaniJayaram.mp3 to 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Azhagiya-Kanne-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AzhagiyaKanne.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:successfully downloaded file AzhagiyaKanne.mp3 to 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Kalyaanam-Paaru-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file KalyaanamPaaru.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:successfully downloaded file KalyaanamPaaru.mp3 to 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Naan-Paada-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NaanPaada.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:successfully downloaded file NaanPaada.mp3 to 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Poodaa-Poodaa-Pokkai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file PoodaaPoodaaPokkai.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:successfully downloaded file PoodaaPoodaaPokkai.mp3 to 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Aadal%20Paadalil-Masstamilan.In.mp3
+INFO:root:as a file AadalPaadalil.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:successfully downloaded file AadalPaadalil.mp3 to 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Muthamizha%20Charame-Masstamilan.In.mp3
+INFO:root:as a file MuthamizhaCharame.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:successfully downloaded file MuthamizhaCharame.mp3 to 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Thoranam%20Aadidum-Masstamilan.In.mp3
+INFO:root:as a file ThoranamAadidum.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:successfully downloaded file ThoranamAadidum.mp3 to 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Yaar%20Maanamo-Masstamilan.In.mp3
+INFO:root:as a file YaarMaanamo.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:successfully downloaded file YaarMaanamo.mp3 to 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aadu%20Pambe/Aadu%20Pambe-Masstamilan.In.mp3
+INFO:root:as a file AaduPambe.mp3
+INFO:root:in the location 123Music/1979/AaduPambe
+INFO:root:
+
+INFO:root:successfully downloaded file AaduPambe.mp3 to 123Music/1979/AaduPambe
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Kanmaniyae%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Kanmaniyae.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:successfully downloaded file Kanmaniyae.mp3 to 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Vaazhkayae%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Vaazhkayae.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:successfully downloaded file Vaazhkayae.mp3 to 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Aan%20Pillai%20Endralum%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AanPillaiEndralum.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:successfully downloaded file AanPillaiEndralum.mp3 to 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Adukkumalli-Masstamilan.In.mp3
+INFO:root:as a file Adukkumalli.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:successfully downloaded file Adukkumalli.mp3 to 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Munnaalil%20Nadanthathai-Masstamilan.In.mp3
+INFO:root:as a file MunnaalilNadanthathai.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:successfully downloaded file MunnaalilNadanthathai.mp3 to 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Thennaimmara%20Paalaikkulle-Masstamilan.In.mp3
+INFO:root:as a file ThennaimmaraPaalaikkulle.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:successfully downloaded file ThennaimmaraPaalaikkulle.mp3 to 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Etho%20Ninaivugal-Masstamilan.In.mp3
+INFO:root:as a file EthoNinaivugal.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:successfully downloaded file EthoNinaivugal.mp3 to 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Ellorum-Masstamilan.In.mp3
+INFO:root:as a file Ellorum.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:successfully downloaded file Ellorum.mp3 to 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Ellorum%20Poranthom-Masstamilan.In.mp3
+INFO:root:as a file EllorumPoranthom.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:successfully downloaded file EllorumPoranthom.mp3 to 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Malai%20Nera%20Katre-Masstamilan.In.mp3
+INFO:root:as a file MalaiNeraKatre.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:successfully downloaded file MalaiNeraKatre.mp3 to 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Nee%20Kannil%20Vaazhum-Masstamilan.In.mp3
+INFO:root:as a file NeeKannilVaazhum.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:successfully downloaded file NeeKannilVaazhum.mp3 to 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Aatha%20Aatha%20Rendu%20Pondatti-Masstamilan.In.mp3
+INFO:root:as a file AathaAathaRenduPondatti.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:successfully downloaded file AathaAathaRenduPondatti.mp3 to 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Chinna%20Pura%20Ondru-Masstamilan.In.mp3
+INFO:root:as a file ChinnaPuraOndru.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:successfully downloaded file ChinnaPuraOndru.mp3 to 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Geetha%20Sangeetha-Masstamilan.In.mp3
+INFO:root:as a file GeethaSangeetha.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:successfully downloaded file GeethaSangeetha.mp3 to 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Pethaalum%20Pethenada-Masstamilan.In.mp3
+INFO:root:as a file PethaalumPethenada.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:successfully downloaded file PethaalumPethenada.mp3 to 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Amma%20Nee%20Sumantha%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AmmaNeeSumantha.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file AmmaNeeSumantha.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Appane%20Appane%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AppaneAppane.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file AppaneAppane.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nadhiyoram%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nadhiyoram.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file Nadhiyoram.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Malai%20Aruvi%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file MalaiAruvi.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file MalaiAruvi.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nilavuneram%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nilavuneram.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file Nilavuneram.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nanthavanathil%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nanthavanathil.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:successfully downloaded file Nanthavanathil.mp3 to 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Azhage%20Unnai-Masstamilan.In.mp3
+INFO:root:as a file AzhageUnnai.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file AzhageUnnai.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Abishega%20Nerathil-Masstamilan.In.mp3
+INFO:root:as a file AbishegaNerathil.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file AbishegaNerathil.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Naane%20Naana-Masstamilan.In.mp3
+INFO:root:as a file NaaneNaana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file NaaneNaana.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/En%20Kalyana-Masstamilan.In.mp3
+INFO:root:as a file EnKalyana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file EnKalyana.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Kurinji%20Malarin-Masstamilan.In.mp3
+INFO:root:as a file KurinjiMalarin.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file KurinjiMalarin.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Masthana-Masstamilan.In.mp3
+INFO:root:as a file Masthana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file Masthana.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Thanimayil%20Yaarival-Masstamilan.In.mp3
+INFO:root:as a file ThanimayilYaarival.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:successfully downloaded file ThanimayilYaarival.mp3 to 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhiyatha%20Kolangal/Poo%20Vaanam%20Pola%20Nenjam%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file PooVaanamPolaNenjam.mp3
+INFO:root:in the location 123Music/1979/AzhiyathaKolangal
+INFO:root:
+
+ERROR:root:Sample Error Log
+WARNING:root:Sample Warning Log
+DEBUG:root:Sample Debug Log
+INFO:root:Sample Info Log
+DEBUG:eyed3:eyeD3 version 0.9.6
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Mambazhathu%20Vandu/I%20Love%20You-Masstamilan.In.mp3
+INFO:root:as a file ILoveYou.mp3
+INFO:root:in the location 123Music/1979/MambazhathuVandu
+INFO:root:
+
+INFO:root:already downloaded ILoveYou.mp3 in 123Music/1979/MambazhathuVandu
+INFO:root:Downloading music_url https://massdownload.net/1933/Kovalan/Kannaki%20Therukoothu-Masstamilan.in.mp3
+INFO:root:as a file KannakiTherukoothu.mp3
+INFO:root:in the location 123Music/1933/Kovalan
+INFO:root:
+
+INFO:root:already downloaded KannakiTherukoothu.mp3 in 123Music/1933/Kovalan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Mayandi/Oru%20Thangakili%20Tholil%20Vanthu-Masstamilan.In.mp3
+INFO:root:as a file OruThangakiliTholilVanthu.mp3
+INFO:root:in the location 123Music/1979/Mayandi
+INFO:root:
+
+INFO:root:already downloaded OruThangakiliTholilVanthu.mp3 in 123Music/1979/Mayandi
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ambikaye-Masstamilan.in.mp3
+INFO:root:as a file Ambikaye.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded Ambikaye.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Ammaa-Masstamilan.in.mp3
+INFO:root:as a file Ammaa.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded Ammaa.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Eedhuko-Masstamilan.in.mp3
+INFO:root:as a file Eedhuko.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded Eedhuko.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Aalana%20Aalillaiyo-Masstamilan.In.mp3
+INFO:root:as a file AalanaAalillaiyo.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:already downloaded AalanaAalillaiyo.mp3 in 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Kankonil%20Njaanetho-Masstamilan.in.mp3
+INFO:root:as a file KankonilNjaanetho.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded KankonilNjaanetho.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/En%20Raagangal%20Indru-Masstamilan.In.mp3
+INFO:root:as a file EnRaagangalIndru.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:already downloaded EnRaagangalIndru.mp3 in 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Njaan%20Vanakum-Masstamilan.in.mp3
+INFO:root:as a file NjaanVanakum.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded NjaanVanakum.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Kaamathchi%20Meenatchi-Masstamilan.In.mp3
+INFO:root:as a file KaamathchiMeenatchi.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:already downloaded KaamathchiMeenatchi.mp3 in 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://massdownload.net/1933/Sathyavaan%20Savithiri/Panchamelladi-Masstamilan.in.mp3
+INFO:root:as a file Panchamelladi.mp3
+INFO:root:in the location 123Music/1933/SathyavaanSavithiri
+INFO:root:
+
+INFO:root:already downloaded Panchamelladi.mp3 in 123Music/1933/SathyavaanSavithiri
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Muthal%20Iravu/Manjal%20Nilavukku-Masstamilan.In.mp3
+INFO:root:as a file ManjalNilavukku.mp3
+INFO:root:in the location 123Music/1979/MuthalIravu
+INFO:root:
+
+INFO:root:already downloaded ManjalNilavukku.mp3 in 123Music/1979/MuthalIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Nangooram/Aalayan%20Nayagan-Masstamilan.In.mp3
+INFO:root:as a file AalayanNayagan.mp3
+INFO:root:in the location 123Music/1979/Nangooram
+INFO:root:
+
+INFO:root:already downloaded AalayanNayagan.mp3 in 123Music/1979/Nangooram
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Karthikeya%20lavanya-Masstamilan.in.mp3
+INFO:root:as a file Karthikeyalavanya.mp3
+INFO:root:in the location 123Music/1933/ValliThirumanam
+INFO:root:
+
+INFO:root:already downloaded Karthikeyalavanya.mp3 in 123Music/1933/ValliThirumanam
+INFO:root:Downloading music_url https://massdownload.net/1933/Valli%20Thirumanam/Oru%20Thaai%20Vayirtil-Masstamilan.in.mp3
+INFO:root:as a file OruThaaiVayirtil.mp3
+INFO:root:in the location 123Music/1933/ValliThirumanam
+INFO:root:
+
+INFO:root:already downloaded OruThaaiVayirtil.mp3 in 123Music/1933/ValliThirumanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Needhikku%20Mun%20Neeya%20Naana/Asaiyulla%20Mappilaikku-Masstamilan.In.mp3
+INFO:root:as a file AsaiyullaMappilaikku.mp3
+INFO:root:in the location 123Music/1979/NeedhikkuMunNeeyaNaana
+INFO:root:
+
+INFO:root:already downloaded AsaiyullaMappilaikku.mp3 in 123Music/1979/NeedhikkuMunNeeyaNaana
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Idhu%20Irava%20Pagala-Masstamilan.In.mp3
+INFO:root:as a file IdhuIravaPagala.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:already downloaded IdhuIravaPagala.mp3 in 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Pesum%20Manimottu%20Rojakkal-Masstamilan.In.mp3
+INFO:root:as a file PesumManimottuRojakkal.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:already downloaded PesumManimottuRojakkal.mp3 in 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neela%20Malargal/Madham%20Oru%20Poo-Masstamilan.In.mp3
+INFO:root:as a file MadhamOruPoo.mp3
+INFO:root:in the location 123Music/1979/NeelaMalargal
+INFO:root:
+
+INFO:root:already downloaded MadhamOruPoo.mp3 in 123Music/1979/NeelaMalargal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Ore_Jeevan_Ondre_Ullam-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OreJeevanOndreUllam.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:already downloaded OreJeevanOndreUllam.mp3 in 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Naan_Kattil_Mele_Kanden-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NaanKattilMeleKanden.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:already downloaded NaanKattilMeleKanden.mp3 in 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Oru_Kodi_Inbangal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OruKodiInbangal.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:already downloaded OruKodiInbangal.mp3 in 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Neeya_160kbps/Unnai_Ethanai_Murai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file UnnaiEthanaiMurai.mp3
+INFO:root:in the location 123Music/1979/Neeya
+INFO:root:
+
+INFO:root:already downloaded UnnaiEthanaiMurai.mp3 in 123Music/1979/Neeya
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Aayiram_Malargalae-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AayiramMalargalae.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:already downloaded AayiramMalargalae.mp3 in 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Iru_Paravaigal_Malai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IruParavaigalMalai.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:already downloaded IruParavaigalMalai.mp3 in 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Niram_Maratha_Pookal_160kbps/Mudhan_Mudhalaga_Kadhal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MudhanMudhalagaKadhal.mp3
+INFO:root:in the location 123Music/1979/NiramMarathaPookal
+INFO:root:
+
+INFO:root:already downloaded MudhanMudhalagaKadhal.mp3 in 123Music/1979/NiramMarathaPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ore%20Vaanam%20Ore%20Bhoomi/Malairani%20Munthanai%20Sariya%20Sariya-Masstamilan.In.mp3
+INFO:root:as a file MalairaniMunthanaiSariyaSariya.mp3
+INFO:root:in the location 123Music/1979/OreVaanamOreBhoomi
+INFO:root:
+
+INFO:root:already downloaded MalairaniMunthanaiSariyaSariya.mp3 in 123Music/1979/OreVaanamOreBhoomi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ore%20Vaanam%20Ore%20Bhoomi/Valamana%20Bhoomiyil%20Sugamana%20Kalaigal%20Azhana%20Kaathal%20Athu-Masstamilan.In.mp3
+INFO:root:as a file ValamanaBhoomiyilSugamanaKalaigalAzhanaKaathalAthu.mp3
+INFO:root:in the location 123Music/1979/OreVaanamOreBhoomi
+INFO:root:
+
+INFO:root:already downloaded ValamanaBhoomiyilSugamanaKalaigalAzhanaKaathalAthu.mp3 in 123Music/1979/OreVaanamOreBhoomi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Kalaiyo_Silaiyo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file KalaiyoSilaiyo.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:already downloaded KalaiyoSilaiyo.mp3 in 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Theemtha_Theemtha-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file TheemthaTheemtha.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:already downloaded TheemthaTheemtha.mp3 in 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Ponnaram_Poovaram-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file PonnaramPoovaram.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:already downloaded PonnaramPoovaram.mp3 in 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Ilamai_Enum_Poongatru-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IlamaiEnumPoongatru.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:already downloaded IlamaiEnumPoongatru.mp3 in 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Pagalil_Oru_Iravu_160kbps/Thottam_Konda_Rasave-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThottamKondaRasave.mp3
+INFO:root:in the location 123Music/1979/PagalilOruIravu
+INFO:root:
+
+INFO:root:already downloaded ThottamKondaRasave.mp3 in 123Music/1979/PagalilOruIravu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Orampo%20Orampo-Masstamilan.In.mp3
+INFO:root:as a file OrampoOrampo.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded OrampoOrampo.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Oru%20Manjakuruvi-Masstamilan.In.mp3
+INFO:root:as a file OruManjakuruvi.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded OruManjakuruvi.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Samakhozhi%20Yei%20Koovuthamma-Masstamilan.In.mp3
+INFO:root:as a file SamakhozhiYeiKoovuthamma.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded SamakhozhiYeiKoovuthamma.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Solai%20Kuyile%20Kaalai%20Kathire-Masstamilan.In.mp3
+INFO:root:as a file SolaiKuyileKaalaiKathire.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded SolaiKuyileKaalaiKathire.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Unakkenathane%20Innerama-Masstamilan.In.mp3
+INFO:root:as a file UnakkenathaneInnerama.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded UnakkenathaneInnerama.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Ponnu%20Oorukku%20Pudhusu/Veetukoru%20Magana-Masstamilan.In.mp3
+INFO:root:as a file VeetukoruMagana.mp3
+INFO:root:in the location 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:
+
+INFO:root:already downloaded VeetukoruMagana.mp3 in 123Music/1979/PonnuOorukkuPudhusu
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Nyan_Nyan_Paadanum-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NyanNyanPaadanum.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:already downloaded NyanNyanPaadanum.mp3 in 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Vaa_Ponmayile_Nenjam-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VaaPonmayileNenjam.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:already downloaded VaaPonmayileNenjam.mp3 in 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Raja_Chinna_Raja-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file RajaChinnaRaja.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:already downloaded RajaChinnaRaja.mp3 in 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Poonthalir_160kbps/Manathil_Yenna_Ninaivugalo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManathilYennaNinaivugalo.mp3
+INFO:root:in the location 123Music/1979/Poonthalir
+INFO:root:
+
+INFO:root:already downloaded ManathilYennaNinaivugalo.mp3 in 123Music/1979/Poonthalir
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Idhayam-Poguthe-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file IdhayamPoguthe.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:already downloaded IdhayamPoguthe.mp3 in 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Thanthana-Thamthana-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThanthanaThamthana.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:already downloaded ThanthanaThamthana.mp3 in 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Thiruvizha-Koothu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ThiruvizhaKoothu.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:already downloaded ThiruvizhaKoothu.mp3 in 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Puthiya-Vaarpugal-128kbps/Vaan-Megangale-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VaanMegangale.mp3
+INFO:root:in the location 123Music/1979/PuthiyaVaarpugal
+INFO:root:
+
+INFO:root:already downloaded VaanMegangale.mp3 in 123Music/1979/PuthiyaVaarpugal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Vethala_Vethala-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file VethalaVethala.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:already downloaded VethalaVethala.mp3 in 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Maaman_Oru_Naal-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MaamanOruNaal.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:already downloaded MaamanOruNaal.mp3 in 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Uchi_Vaguntheduthu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file UchiVaguntheduthu.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:already downloaded UchiVaguntheduthu.mp3 in 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Rosapoo_Ravikaikari_160kbps/Ennullil_Engo-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file EnnullilEngo.mp3
+INFO:root:in the location 123Music/1979/RosapooRavikaikari
+INFO:root:
+
+INFO:root:already downloaded EnnullilEngo.mp3 in 123Music/1979/RosapooRavikaikari
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sakkalathi/Enna%20Pattu%20Paada-Masstamilan.In.mp3
+INFO:root:as a file EnnaPattuPaada.mp3
+INFO:root:in the location 123Music/1979/Sakkalathi
+INFO:root:
+
+INFO:root:already downloaded EnnaPattuPaada.mp3 in 123Music/1979/Sakkalathi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sakkalathi/Vaada%20Vaattuthu-Masstamilan.In.mp3
+INFO:root:as a file VaadaVaattuthu.mp3
+INFO:root:in the location 123Music/1979/Sakkalathi
+INFO:root:
+
+INFO:root:already downloaded VaadaVaattuthu.mp3 in 123Music/1979/Sakkalathi
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Brochevarevarura-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file Brochevarevarura.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded Brochevarevarura.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Dorakuna_Ituvanti-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file DorakunaItuvanti.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded DorakunaItuvanti.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Manasa_Sancharare-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManasaSancharare.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded ManasaSancharare.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Omkara_Nadhanu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file OmkaraNadhanu.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded OmkaraNadhanu.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Raagam_Thanam_Pallavi-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file RaagamThanamPallavi.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded RaagamThanamPallavi.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Sankarabharanam_160kbps/Samaja_Varagamana-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file SamajaVaragamana.mp3
+INFO:root:in the location 123Music/1979/Sankarabharanam
+INFO:root:
+
+INFO:root:already downloaded SamajaVaragamana.mp3 in 123Music/1979/Sankarabharanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Anbe_Chinthamani_Inba_Themangani-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AnbeChinthamaniInbaThemangani.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:already downloaded AnbeChinthamaniInbaThemangani.mp3 in 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Azhagaana_Chinnakutti-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AzhagaanaChinnakutti.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:already downloaded AzhagaanaChinnakutti.mp3 in 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Mani_Maaligai_Kanda_Maharaniye-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file ManiMaaligaiKandaMaharaniye.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:already downloaded ManiMaaligaiKandaMaharaniye.mp3 in 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Tharayil_Vaazhum_Meengal_160kbps/Mazhaikkala_Megam_Neerkondu-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file MazhaikkalaMegamNeerkondu.mp3
+INFO:root:in the location 123Music/1979/TharayilVaazhumMeengal
+INFO:root:
+
+INFO:root:already downloaded MazhaikkalaMegamNeerkondu.mp3 in 123Music/1979/TharayilVaazhumMeengal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Malar%20Kuduthen-Masstamilan.In.mp3
+INFO:root:as a file MalarKuduthen.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:already downloaded MalarKuduthen.mp3 in 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Kadhal%20Rani-Masstamilan.In.mp3
+INFO:root:as a file KadhalRani.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:already downloaded KadhalRani.mp3 in 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Yen%20Rajathi-Masstamilan.In.mp3
+INFO:root:as a file YenRajathi.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:already downloaded YenRajathi.mp3 in 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Irandu%20Kaigal-Masstamilan.In.mp3
+INFO:root:as a file IranduKaigal.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:already downloaded IranduKaigal.mp3 in 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thirisoolam/Perumalin-Masstamilan.In.mp3
+INFO:root:as a file Perumalin.mp3
+INFO:root:in the location 123Music/1979/Thirisoolam
+INFO:root:
+
+INFO:root:already downloaded Perumalin.mp3 in 123Music/1979/Thirisoolam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Adraa%20Melatha%20Raja%20-%20Kovai%20Soundrarajan%2C%20LR.%20Eswari-Masstamilan.In.mp3
+INFO:root:as a file AdraaMelathaRajaKovaiSoundrarajanLR.Eswari.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:already downloaded AdraaMelathaRajaKovaiSoundrarajanLR.Eswari.mp3 in 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Arul%20Jothi%20Deivam%20-%20M.%20Balamurali%20Krishna%2C%20Abhaya-Masstamilan.In.mp3
+INFO:root:as a file ArulJothiDeivamM.BalamuraliKrishnaAbhaya.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:already downloaded ArulJothiDeivamM.BalamuraliKrishnaAbhaya.mp3 in 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Kizhakku%20Paravai%20Merkkil%20-%20TMS-Masstamilan.In.mp3
+INFO:root:as a file KizhakkuParavaiMerkkilTMS.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:already downloaded KizhakkuParavaiMerkkilTMS.mp3 in 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Raja%20Vada%20Singa%20Kutti%20-%20Jeyachandran%2C%20S.Janaki-Masstamilan.In.mp3
+INFO:root:as a file RajaVadaSingaKuttiJeyachandranS.Janaki.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:already downloaded RajaVadaSingaKuttiJeyachandranS.Janaki.mp3 in 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Thisai%20Maariya%20Paravaigal/Ullam%20Urugaathaa%20Enthan%20-%20Vani%20Jayaram-Masstamilan.In.mp3
+INFO:root:as a file UllamUrugaathaaEnthanVaniJayaram.mp3
+INFO:root:in the location 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:
+
+INFO:root:already downloaded UllamUrugaathaaEnthanVaniJayaram.mp3 in 123Music/1979/ThisaiMaariyaParavaigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Azhagiya-Kanne-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file AzhagiyaKanne.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:already downloaded AzhagiyaKanne.mp3 in 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Kalyaanam-Paaru-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file KalyaanamPaaru.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:already downloaded KalyaanamPaaru.mp3 in 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Naan-Paada-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file NaanPaada.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:already downloaded NaanPaada.mp3 in 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Uthiri-Pookal-128kbps/Poodaa-Poodaa-Pokkai-%5BMasstamilan.in%5D.mp3
+INFO:root:as a file PoodaaPoodaaPokkai.mp3
+INFO:root:in the location 123Music/1979/UthiriPookal
+INFO:root:
+
+INFO:root:already downloaded PoodaaPoodaaPokkai.mp3 in 123Music/1979/UthiriPookal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Aadal%20Paadalil-Masstamilan.In.mp3
+INFO:root:as a file AadalPaadalil.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:already downloaded AadalPaadalil.mp3 in 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Muthamizha%20Charame-Masstamilan.In.mp3
+INFO:root:as a file MuthamizhaCharame.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:already downloaded MuthamizhaCharame.mp3 in 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Thoranam%20Aadidum-Masstamilan.In.mp3
+INFO:root:as a file ThoranamAadidum.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:already downloaded ThoranamAadidum.mp3 in 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Vetrikku%20Oruvan/Yaar%20Maanamo-Masstamilan.In.mp3
+INFO:root:as a file YaarMaanamo.mp3
+INFO:root:in the location 123Music/1979/VetrikkuOruvan
+INFO:root:
+
+INFO:root:already downloaded YaarMaanamo.mp3 in 123Music/1979/VetrikkuOruvan
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aadu%20Pambe/Aadu%20Pambe-Masstamilan.In.mp3
+INFO:root:as a file AaduPambe.mp3
+INFO:root:in the location 123Music/1979/AaduPambe
+INFO:root:
+
+INFO:root:already downloaded AaduPambe.mp3 in 123Music/1979/AaduPambe
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Kanmaniyae%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Kanmaniyae.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:already downloaded Kanmaniyae.mp3 in 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Vaazhkayae%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Vaazhkayae.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:already downloaded Vaazhkayae.mp3 in 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Aarilirunthu-Arubathu-Varai-128kbps-MassTamilan.com/Aan%20Pillai%20Endralum%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AanPillaiEndralum.mp3
+INFO:root:in the location 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:
+
+INFO:root:already downloaded AanPillaiEndralum.mp3 in 123Music/1979/AarilirunthuArubathuVarai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Adukkumalli-Masstamilan.In.mp3
+INFO:root:as a file Adukkumalli.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:already downloaded Adukkumalli.mp3 in 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Munnaalil%20Nadanthathai-Masstamilan.In.mp3
+INFO:root:as a file MunnaalilNadanthathai.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:already downloaded MunnaalilNadanthathai.mp3 in 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Adukku%20Malli/Thennaimmara%20Paalaikkulle-Masstamilan.In.mp3
+INFO:root:as a file ThennaimmaraPaalaikkulle.mp3
+INFO:root:in the location 123Music/1979/AdukkuMalli
+INFO:root:
+
+INFO:root:already downloaded ThennaimmaraPaalaikkulle.mp3 in 123Music/1979/AdukkuMalli
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Etho%20Ninaivugal-Masstamilan.In.mp3
+INFO:root:as a file EthoNinaivugal.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:already downloaded EthoNinaivugal.mp3 in 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Ellorum-Masstamilan.In.mp3
+INFO:root:as a file Ellorum.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:already downloaded Ellorum.mp3 in 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Ellorum%20Poranthom-Masstamilan.In.mp3
+INFO:root:as a file EllorumPoranthom.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:already downloaded EllorumPoranthom.mp3 in 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Malai%20Nera%20Katre-Masstamilan.In.mp3
+INFO:root:as a file MalaiNeraKatre.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:already downloaded MalaiNeraKatre.mp3 in 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Agal%20Vilakku/Nee%20Kannil%20Vaazhum-Masstamilan.In.mp3
+INFO:root:as a file NeeKannilVaazhum.mp3
+INFO:root:in the location 123Music/1979/AgalVilakku
+INFO:root:
+
+INFO:root:already downloaded NeeKannilVaazhum.mp3 in 123Music/1979/AgalVilakku
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Aatha%20Aatha%20Rendu%20Pondatti-Masstamilan.In.mp3
+INFO:root:as a file AathaAathaRenduPondatti.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:already downloaded AathaAathaRenduPondatti.mp3 in 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Chinna%20Pura%20Ondru-Masstamilan.In.mp3
+INFO:root:as a file ChinnaPuraOndru.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:already downloaded ChinnaPuraOndru.mp3 in 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Geetha%20Sangeetha-Masstamilan.In.mp3
+INFO:root:as a file GeethaSangeetha.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:already downloaded GeethaSangeetha.mp3 in 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Anbe%20Sangeetha/Pethaalum%20Pethenada-Masstamilan.In.mp3
+INFO:root:as a file PethaalumPethenada.mp3
+INFO:root:in the location 123Music/1979/AnbeSangeetha
+INFO:root:
+
+INFO:root:already downloaded PethaalumPethenada.mp3 in 123Music/1979/AnbeSangeetha
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Amma%20Nee%20Sumantha%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AmmaNeeSumantha.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded AmmaNeeSumantha.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Appane%20Appane%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AppaneAppane.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded AppaneAppane.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nadhiyoram%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nadhiyoram.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded Nadhiyoram.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Malai%20Aruvi%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file MalaiAruvi.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded MalaiAruvi.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nilavuneram%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nilavuneram.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded Nilavuneram.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Annai%20Oru%20Aalayam/Nanthavanathil%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file Nanthavanathil.mp3
+INFO:root:in the location 123Music/1979/AnnaiOruAalayam
+INFO:root:
+
+INFO:root:already downloaded Nanthavanathil.mp3 in 123Music/1979/AnnaiOruAalayam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Azhage%20Unnai-Masstamilan.In.mp3
+INFO:root:as a file AzhageUnnai.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded AzhageUnnai.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Abishega%20Nerathil-Masstamilan.In.mp3
+INFO:root:as a file AbishegaNerathil.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded AbishegaNerathil.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Naane%20Naana-Masstamilan.In.mp3
+INFO:root:as a file NaaneNaana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded NaaneNaana.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/En%20Kalyana-Masstamilan.In.mp3
+INFO:root:as a file EnKalyana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded EnKalyana.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Kurinji%20Malarin-Masstamilan.In.mp3
+INFO:root:as a file KurinjiMalarin.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded KurinjiMalarin.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Masthana-Masstamilan.In.mp3
+INFO:root:as a file Masthana.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded Masthana.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhage%20Unnai%20Aarathikkiren/Thanimayil%20Yaarival-Masstamilan.In.mp3
+INFO:root:as a file ThanimayilYaarival.mp3
+INFO:root:in the location 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:
+
+INFO:root:already downloaded ThanimayilYaarival.mp3 in 123Music/1979/AzhageUnnaiAarathikkiren
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhiyatha%20Kolangal/Poo%20Vaanam%20Pola%20Nenjam%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file PooVaanamPolaNenjam.mp3
+INFO:root:in the location 123Music/1979/AzhiyathaKolangal
+INFO:root:
+
+INFO:root:successfully downloaded file PooVaanamPolaNenjam.mp3 to 123Music/1979/AzhiyathaKolangal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Azhiyatha%20Kolangal/Naan%20Ennum%20Pozhuthu%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file NaanEnnumPozhuthu.mp3
+INFO:root:in the location 123Music/1979/AzhiyathaKolangal
+INFO:root:
+
+INFO:root:successfully downloaded file NaanEnnumPozhuthu.mp3 to 123Music/1979/AzhiyathaKolangal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Chellakili/Madurai%20Meenatchi%20Manikkarathil-Masstamilan.In.mp3
+INFO:root:as a file MaduraiMeenatchiManikkarathil.mp3
+INFO:root:in the location 123Music/1979/Chellakili
+INFO:root:
+
+INFO:root:successfully downloaded file MaduraiMeenatchiManikkarathil.mp3 to 123Music/1979/Chellakili
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Chithirai%20Sevvanam/Chithirai%20Sevvanam-Masstamilan.In.mp3
+INFO:root:as a file ChithiraiSevvanam.mp3
+INFO:root:in the location 123Music/1979/ChithiraiSevvanam
+INFO:root:
+
+INFO:root:successfully downloaded file ChithiraiSevvanam.mp3 to 123Music/1979/ChithiraiSevvanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Chithirai%20Sevvanam/Kanden%20Engum-Masstamilan.In.mp3
+INFO:root:as a file KandenEngum.mp3
+INFO:root:in the location 123Music/1979/ChithiraiSevvanam
+INFO:root:
+
+INFO:root:successfully downloaded file KandenEngum.mp3 to 123Music/1979/ChithiraiSevvanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Chithirai%20Sevvanam/Kanden%20Engum.mp3
+INFO:root:as a file KandenEngum.mp3
+INFO:root:in the location 123Music/1979/ChithiraiSevvanam
+INFO:root:
+
+INFO:root:already downloaded KandenEngum.mp3 in 123Music/1979/ChithiraiSevvanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Chithirai%20Sevvanam/Oru%20Vaanavil%20Pole-Masstamilan.In.mp3
+INFO:root:as a file OruVaanavilPole.mp3
+INFO:root:in the location 123Music/1979/ChithiraiSevvanam
+INFO:root:
+
+INFO:root:successfully downloaded file OruVaanavilPole.mp3 to 123Music/1979/ChithiraiSevvanam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/DharmaYudham-128kbps-MassTamilan.com/Oru%20Thanga%20Rathathil%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file OruThangaRathathil.mp3
+INFO:root:in the location 123Music/1979/DharmaYudham
+INFO:root:
+
+INFO:root:successfully downloaded file OruThangaRathathil.mp3 to 123Music/1979/DharmaYudham
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/DharmaYudham-128kbps-MassTamilan.com/Aagaya%20Gangai%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AagayaGangai.mp3
+INFO:root:in the location 123Music/1979/DharmaYudham
+INFO:root:
+
+INFO:root:successfully downloaded file AagayaGangai.mp3 to 123Music/1979/DharmaYudham
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/DharmaYudham-128kbps-MassTamilan.com/Ada%20Poyaa%20Poyaa%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file AdaPoyaaPoyaa.mp3
+INFO:root:in the location 123Music/1979/DharmaYudham
+INFO:root:
+
+INFO:root:successfully downloaded file AdaPoyaaPoyaa.mp3 to 123Music/1979/DharmaYudham
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/DharmaYudham-128kbps-MassTamilan.com/Disco%20Sound%20%28English%29%20-%20Masstamilan.In-Masstamilan.In.mp3
+INFO:root:as a file DiscoSoundEnglish.mp3
+INFO:root:in the location 123Music/1979/DharmaYudham
+INFO:root:
+
+INFO:root:successfully downloaded file DiscoSoundEnglish.mp3 to 123Music/1979/DharmaYudham
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Enippadigal/Yenunga%20Maapillai%20Enna%20Nenappu-Masstamilan.In.mp3
+INFO:root:as a file YenungaMaapillaiEnnaNenappu.mp3
+INFO:root:in the location 123Music/1979/Enippadigal
+INFO:root:
+
+INFO:root:successfully downloaded file YenungaMaapillaiEnnaNenappu.mp3 to 123Music/1979/Enippadigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Enippadigal/Poonthenil%20Kalanthu%20Ponvandu%20Ezhunthu%20%28M%29-Masstamilan.In.mp3
+INFO:root:as a file PoonthenilKalanthuPonvanduEzhunthuM.mp3
+INFO:root:in the location 123Music/1979/Enippadigal
+INFO:root:
+
+INFO:root:successfully downloaded file PoonthenilKalanthuPonvanduEzhunthuM.mp3 to 123Music/1979/Enippadigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Enippadigal/Poonthenil%20Kalanthu%20Ponvandu%20Ezhunthu%20%28F%29-Masstamilan.In.mp3
+INFO:root:as a file PoonthenilKalanthuPonvanduEzhunthuF.mp3
+INFO:root:in the location 123Music/1979/Enippadigal
+INFO:root:
+
+INFO:root:successfully downloaded file PoonthenilKalanthuPonvanduEzhunthuF.mp3 to 123Music/1979/Enippadigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Enippadigal/Kannizhantha%20Pillaiku%20Deivam%20Thantha-Masstamilan.In.mp3
+INFO:root:as a file KannizhanthaPillaikuDeivamThantha.mp3
+INFO:root:in the location 123Music/1979/Enippadigal
+INFO:root:
+
+INFO:root:successfully downloaded file KannizhanthaPillaikuDeivamThantha.mp3 to 123Music/1979/Enippadigal
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Gnana%20Kuzhanthai/Osai%20Kudutha%20Nayagiye-Masstamilan.In.mp3
+INFO:root:as a file OsaiKuduthaNayagiye.mp3
+INFO:root:in the location 123Music/1979/GnanaKuzhanthai
+INFO:root:
+
+INFO:root:successfully downloaded file OsaiKuduthaNayagiye.mp3 to 123Music/1979/GnanaKuzhanthai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Gnana%20Kuzhanthai/Thodudaiya%20Seviyan-Masstamilan.In.mp3
+INFO:root:as a file ThodudaiyaSeviyan.mp3
+INFO:root:in the location 123Music/1979/GnanaKuzhanthai
+INFO:root:
+
+INFO:root:successfully downloaded file ThodudaiyaSeviyan.mp3 to 123Music/1979/GnanaKuzhanthai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadamai%20Nenjam/Thala%20Thala%20Meniyil-Masstamilan.In.mp3
+INFO:root:as a file ThalaThalaMeniyil.mp3
+INFO:root:in the location 123Music/1979/KadamaiNenjam
+INFO:root:
+
+INFO:root:successfully downloaded file ThalaThalaMeniyil.mp3 to 123Music/1979/KadamaiNenjam
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Mayile%20Mayile%20Un%20Thogai-Masstamilan.In.mp3
+INFO:root:as a file MayileMayileUnThogai.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file MayileMayileUnThogai.mp3 to 123Music/1979/KadavulAmaithaMedai
 ERROR:root:failed to save tag for 123Music/1979/KadavulAmaithaMedai/MayileMayileUnThogai.mp3
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Thangathuraiye-Masstamilan.In.mp3
+INFO:root:as a file Thangathuraiye.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file Thangathuraiye.mp3 to 123Music/1979/KadavulAmaithaMedai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Thanjaavoor%20Singari-Masstamilan.In.mp3
+INFO:root:as a file ThanjaavoorSingari.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file ThanjaavoorSingari.mp3 to 123Music/1979/KadavulAmaithaMedai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Thendrale%20Nee%20Pesu-Masstamilan.In.mp3
+INFO:root:as a file ThendraleNeePesu.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file ThendraleNeePesu.mp3 to 123Music/1979/KadavulAmaithaMedai
 ERROR:root:failed to save tag for 123Music/1979/KadavulAmaithaMedai/ThendraleNeePesu.mp3
-ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/AattamAattam.mp3
-ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/MasilaNilaveNam.mp3
-ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/BagappirivinaiDialogues.mp3
-ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/SindhanaiSeiManame.mp3
-ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/EanPiranthaiMaganae.mp3
-ERROR:root:failed to save tag for 123Music/1957/Ambikapathi/SoruManakkumAndAmbuliyai.mp3
-ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/OtrumaiyaiVaazhvathaale.mp3
-ERROR:root:failed to save tag for 123Music/1959/BhaagaPirivinai/PaaloottiTherodumEngal.mp3
-ERROR:root:failed to save tag for 123Music/1958/ManamullaMaruthaaram/InbamEngey.mp3
-ERROR:root:failed to save tag for 123Music/1958/ManamullaMaruthaaram/KaiyileIruppathenna.mp3
-ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/NallakalamVaruguthu.mp3
-ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/ThangaMohana.mp3
-ERROR:root:failed to save tag for 123Music/1957/Pudhaiyal/Unakkaaga.mp3
-ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/KaasikkuPonaal.mp3
-ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/ThensuvaiMevum.mp3
-ERROR:root:failed to save tag for 123Music/1955/DoctorSavithri/VaadhamVambu.mp3
-ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/IruviahiParugumVirundu.mp3
-ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/NadadaRajaNadada.mp3
-ERROR:root:failed to save tag for 123Music/1958/SengottaiSingam/VelVelVelavanai.mp3
-ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/KaasikkuPonaal.mp3
-ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/ThensuvaiMevum.mp3
-ERROR:root:failed to save tag for 123Music/1955/EzhayinAasthi/VaadhamVambu.mp3
-ERROR:root:failed to add tag for 123Music/1982/ThanikaatuRaja/NaanThaanTopuStarmusiq.cc.mp3, invalid load
-ERROR:root:failed to save tag for 123Music/1953/Kangal/AluGanam.mp3
-ERROR:root:failed to save tag for 123Music/1953/Kangal/InbaVeenaiyai.mp3
-ERROR:root:failed to save tag for 123Music/1955/Needhipathi/JiluJilumEnaJolikkum.mp3
-ERROR:root:failed to save tag for 123Music/1955/Needhipathi/MuthedukkumAasaiyile.mp3
-ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/AbaayaArivippu.mp3
-ERROR:root:failed to save tag for 123Music/1955/Needhipathi/OruDevathaiVanthal.mp3
-ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/InbaNilaikaana.mp3
-ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/KannVazhiPugundhu.mp3
-ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/KurangilirunthuPiranthavan.mp3
-ERROR:root:failed to save tag for 123Music/1954/ThookkuThookki/Pengalai.mp3
-ERROR:root:failed to save tag for 123Music/2020/Biskoth/BabySong.mp3
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:failed to save tag for 123Music/2015/Biskoth/BabySong.mp3
-ERROR:root:failed to save tag for 123Music/2014/Biskoth/BabySong.mp3
-ERROR:root:failed to save tag for 123Music/2013/Biskoth/BabySong.mp3
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
-ERROR:root:Sample Error Log
-WARNING:root:Sample Warning Log
-DEBUG:root:Sample Debug Log
-INFO:root:Sample Info Log
-DEBUG:eyed3:eyeD3 version 0.9.5
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Vanil%20Parakkum-Masstamilan.In.mp3
+INFO:root:as a file VanilParakkum.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file VanilParakkum.mp3 to 123Music/1979/KadavulAmaithaMedai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kadavul%20Amaitha%20Medai/Ye%20%20Thanni%20Naanum-Masstamilan.In.mp3
+INFO:root:as a file YeThanniNaanum.mp3
+INFO:root:in the location 123Music/1979/KadavulAmaithaMedai
+INFO:root:
+
+INFO:root:successfully downloaded file YeThanniNaanum.mp3 to 123Music/1979/KadavulAmaithaMedai
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kalyanaraman/Kathal%20Vanthiruku%28Vasu%29-Masstamilan.In.mp3
+INFO:root:as a file KathalVanthirukuVasu.mp3
+INFO:root:in the location 123Music/1979/Kalyanaraman
+INFO:root:
+
+INFO:root:successfully downloaded file KathalVanthirukuVasu.mp3 to 123Music/1979/Kalyanaraman
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kalyanaraman/Malargalil%20Aadum-Masstamilan.In.mp3
+INFO:root:as a file MalargalilAadum.mp3
+INFO:root:in the location 123Music/1979/Kalyanaraman
+INFO:root:
+
+INFO:root:successfully downloaded file MalargalilAadum.mp3 to 123Music/1979/Kalyanaraman
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kalyanaraman/Kaathal%20Deepam%20Ondru-Masstamilan.In.mp3
+INFO:root:as a file KaathalDeepamOndru.mp3
+INFO:root:in the location 123Music/1979/Kalyanaraman
+INFO:root:
+
+INFO:root:successfully downloaded file KaathalDeepamOndru.mp3 to 123Music/1979/Kalyanaraman
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kalyanaraman/Ninaithaal%20Inikkum-Masstamilan.In.mp3
+INFO:root:as a file NinaithaalInikkum.mp3
+INFO:root:in the location 123Music/1979/Kalyanaraman
+INFO:root:
+
+INFO:root:successfully downloaded file NinaithaalInikkum.mp3 to 123Music/1979/Kalyanaraman
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kanni%20Paruvathile/Adi%20Ammadi-Masstamilan.In.mp3
+INFO:root:as a file AdiAmmadi.mp3
+INFO:root:in the location 123Music/1979/KanniParuvathile
+INFO:root:
+
+INFO:root:successfully downloaded file AdiAmmadi.mp3 to 123Music/1979/KanniParuvathile
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kanni%20Paruvathile/Aavaram%20Poomeni-Masstamilan.In.mp3
+INFO:root:as a file AavaramPoomeni.mp3
+INFO:root:in the location 123Music/1979/KanniParuvathile
+INFO:root:
+
+INFO:root:successfully downloaded file AavaramPoomeni.mp3 to 123Music/1979/KanniParuvathile
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kanni%20Paruvathile/Nadaiya%20Maathu-Masstamilan.In.mp3
+INFO:root:as a file NadaiyaMaathu.mp3
+INFO:root:in the location 123Music/1979/KanniParuvathile
+INFO:root:
+
+INFO:root:successfully downloaded file NadaiyaMaathu.mp3 to 123Music/1979/KanniParuvathile
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kanni%20Paruvathile/Pattuvanna%20Rosavaam-Masstamilan.In.mp3
+INFO:root:as a file PattuvannaRosavaam.mp3
+INFO:root:in the location 123Music/1979/KanniParuvathile
+INFO:root:
+
+INFO:root:successfully downloaded file PattuvannaRosavaam.mp3 to 123Music/1979/KanniParuvathile
+INFO:root:Downloading music_url https://masstamilandownload.com/tamil/1979/Kanni%20Paruvathile/Pattuvanna%20Rosavam-Masstamilan.In.mp3
+INFO:root:as a file PattuvannaRosavam.mp3
+INFO:root:in the location 123Music/1979/KanniParuvathile
+INFO:root:
+
+INFO:root:successfully downloaded file PattuvannaRosavam.mp3 to 123Music/1979/KanniParuvathile

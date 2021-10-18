@@ -67,6 +67,7 @@ def fixArtistNames(artist):
     artist = re.sub(r'S P B Charan', 'S P Charan',artist, flags=re.IGNORECASE)
     artist = re.sub(r'Shanka R', 'Shankar',artist, flags=re.IGNORECASE)
     artist = re.sub(r'Sanka R', 'Shankar',artist, flags=re.IGNORECASE)
+    artist = re.sub(r'Sridha R', 'Sridhar',artist, flags=re.IGNORECASE)
     artist = re.sub(r'Sekha R', 'Sekhar',artist, flags=re.IGNORECASE)
     artist = re.sub(r'kakka R', 'Kakkar',artist, flags=re.IGNORECASE)
     artist = re.sub(r'Aalaa R Ja', 'Aalap Raja',artist, flags=re.IGNORECASE)

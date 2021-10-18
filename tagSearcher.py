@@ -12,6 +12,7 @@ try:
 except ImportError:  
     print("No module named 'google' found") 
 
+from shazam import searchShazam
 # def searchSaavn(query):
 
 #     query.append("saavn")
@@ -69,7 +70,8 @@ def searchWikipedia(filename, tag):
         link_to_parse = "https://en.wikipedia.org" + dl[0]
         album_art_file, album_art_name = imageDownloader.getAlbumArt(link_to_parse, filename)
         album_art_data = open(album_art_file,"rb").read()
-        tag.images.set(3, album_art_data, "image/jpeg", album_art_name)
+        if album_art_data:
+            tag.images.set(3, album_art_data, "image/jpeg", album_art_name)
 
         r = requests.get(link_to_parse)
         try:
@@ -174,14 +176,15 @@ def update(filename, tag):
     # file.write(response.content)
     # file.close()
     # tag.images.set(type_=3, img_data=None, mime_type=None, description=saavnMetadata['album'], img_url=saavnMetadata['image_url'])
-    metadata = searchWikipedia(filename, tag)
-    if metadata is not None:
-        if tag.title == "" or tag.title == None:
-            if metadata['title'] is not " ":
-                tag.title = metadata['title']
-        if tag.artist == "" or tag.artist == " " or tag.artist == None or tag.artist == tag.album_artist:
-            tag.artist = metadata['artist']
-        if tag.album_artist == "" or tag.album_artist == " " or tag.album_artist == None or ';' in tag.album_artist:
-            if metadata['album_artist'] is not " ":
-                tag.album_artist = metadata['album_artist']
+    # metadata = searchWikipedia(filename, tag)
+    metadata = searchShazam(filename, tag)
+    # if metadata is not None:
+    #     if tag.title == "" or tag.title == None:
+    #         if metadata['title'] != " ":
+    #             tag.title = metadata['title']
+    #     if tag.artist == "" or tag.artist == " " or tag.artist == None or tag.artist == tag.album_artist:
+    #         tag.artist = metadata['artist']
+    #     if tag.album_artist == "" or tag.album_artist == " " or tag.album_artist == None or ';' in tag.album_artist:
+    #         if metadata['album_artist'] != " ":
+    #             tag.album_artist = metadata['album_artist']
     return tag

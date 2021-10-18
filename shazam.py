@@ -8,7 +8,7 @@ import json
 import requests
 import shutil
 from fixNames import fixArtistNames, fixTitleNames, fixTag, spaceOutName, getTitle, getAlbum, getYear
-# import imageDownloader
+import imageDownloader
 
 
 def collect_info(dict):
@@ -42,7 +42,7 @@ def collect_info(dict):
 
 
     return metadata
-def recognizeSong(full_path):
+def findSong(full_path):
     song_info = open(full_path, 'rb').read()
     shazam = Shazam(song_info)
     recognize_generator = shazam.recognizeSong()
@@ -63,7 +63,7 @@ def check_tag(paths):
                         # if the target is a symlink (soft one), this will 
                         # dereference it - change the value to the actual target file
                         full_path = os.path.realpath(full_path)
-                        md = recognizeSong(full_path)
+                        md = findSong(full_path)
                         print ("Filename:" + full_path)
                         if md:
                             print ("title: ", md['title'])
@@ -84,17 +84,17 @@ if __name__ == "__main__":
         print("Please pass the paths to check as parameters to the script")
 
 
-def update(filename, tag):
+def searchShazam(filename, tag):
     # print (filename)
     # print(tag)
-    md = recognizeSong(filename)
+    md = findSong(filename)
     print ("Filename:" + filename)
     if md:
-        print ("title: ", md['title'])
-        print ("album: ", md['album'])
-        print ("artist: ", md['artist'])
-        print ("album_artist: ", md['album_artist'])
-        print ("image_url: ", md['image_url'])
+        print ("title: ", tag.title, "->", md['title'])
+        print ("album: ", tag.album, "->", md['album'])
+        print ("artist: ", tag.artist, "->", md['artist'])
+        print ("album_artist: ", tag.album_artist, "->", md['album_artist'])
+        print ("image_url: ", tag.images, "->", md['image_url'])
     print ("---------")
     if md:
         if md['title'] != " " and tag.title == " ":
@@ -108,9 +108,8 @@ def update(filename, tag):
             
         if md['album'] != " " and tag.album == " ":
             tag.album = md['album']
-        # if md['image_url'] != " ":
-        #     tag.album_artist = md['image_url']
-        #     album_art_file, album_art_name = imageDownloader.getAlbumArt(link_to_parse, filename)
-        #     album_art_data = open(album_art_file,"rb").read()
-        #     tag.images.set(3, album_art_data, "image/jpeg", album_art_name)
+        if md['image_url'] != " ":
+            image_file = imageDownloader.getAlbumArt(md['image_url'], filename)
+            image_data = open(image_file,"rb").read()
+            tag.images.set(3, image_data, "image/jpeg", tag.title)
     return tag
